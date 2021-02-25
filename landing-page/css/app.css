@@ -7743,6 +7743,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   .btn_languages{
     color: black;
     letter-spacing: -0.1rem;
+    font-size: 14px;
   }
 
   .header {
