@@ -6637,6 +6637,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .offer {
   position: relative;
+  margin-top: 100px;
   margin-bottom: 364px;
 }
 
