@@ -2066,7 +2066,7 @@ body.no-scroll {
 }
 
 .btn_purple {
-  background: #DB334C;
+  background: #FF914D;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -2864,7 +2864,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: -200px;
   width: 400px;
   height: 400px;
-  background: #fb9434;
+  background: #FFAC67;
 }
 
 .main__circle:nth-child(2) {
@@ -2881,7 +2881,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   width: 128px;
   height: 128px;
-  background: #DB334C;
+  background: #d1646a;
 }
 
 .main__circle:nth-child(4) {
@@ -2889,7 +2889,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   bottom: 253px;
   width: 32px;
   height: 32px;
-  background: #5956E9;
+  background: #FF914D;
 }
 
 .main__circle:nth-child(5) {
