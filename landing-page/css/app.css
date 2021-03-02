@@ -4461,7 +4461,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   max-width: 290px;
   margin-bottom: 40px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: -.025em;
   line-height: 1.25;
   color: #292930;
