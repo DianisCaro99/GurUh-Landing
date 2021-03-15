@@ -78,7 +78,7 @@ if (isTouchDevice()) {
 })();
 
 // global variables
-var prevArrow = '<button type="button" class="slick-prev"><svg class="icon icon-arrow-prev"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#icon-arrow-prev"></use></svg></button>',
+var prevArrow = '<button type="button" class="slick-prev"><svg class="icon icon-arrow-prev"><i class="fas fa-chevron-left"></i><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#icon-arrow-prev"></use></svg></button>',
     nextArrow = '<button type="button" class="slick-next"><svg class="icon icon-arrow-next"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite.svg#icon-arrow-next"></use></svg></button>';
 
 $(document).ready(function () {

@@ -2707,10 +2707,24 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .main__btn {
   height: 82px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .main__btn:not(:last-child) {
   margin-right: 32px;
+}
+
+.main__btn:hover {
+  color: white;
 }
 
 .main__link {
@@ -4807,6 +4821,23 @@ body:not(.touch-device) .header__item:hover .header__body {
   padding: 50px 48px 31px;
   border-radius: 16px;
   background: #fff;
+}
+
+.package__details_modals{
+  margin-right: 0 !important;
+  padding: 20px !important;
+}
+
+.modal-content .btn-close {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  z-index: 100000;
+}
+
+.package__details_modals .package__info {
+  max-width: 100%;
 }
 
 .package__details[data-aos] {
@@ -7555,6 +7586,11 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
+}
+
+.modal-content {
+  border-radius: 20px;
+  padding: 10px;
 }
 
 [data-aos="animation-scale-x-left"] {

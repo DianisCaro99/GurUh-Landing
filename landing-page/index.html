@@ -27,6 +27,8 @@
   <meta property="og:description" content="Visually Stunning Responsive HTML Template for Design Startups">
   <meta property="og:site_name" content="Collab">
   <meta property="fb:admins" content="132951670226590">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" media="all" href="css/app.css">
   <script src="https://kit.fontawesome.com/6bd538481a.js" crossorigin="anonymous"></script>
   <script>
@@ -82,8 +84,10 @@
           </h1>
 
           <div class="main__info info">Descubre, conéctate y planifica tu siguiente meta: la universidad.</div>
+
           <div class="main__control">
-            <a class="main__btn btn btn_purple" href=""><i class="fas fa-user-edit"></i>&nbsp;¡Regístrate!</a>
+            <a class="main__btn btn btn_purple" data-bs-toggle="modal" data-bs-target="#explanationGuritoModal"><i
+                class="fas fa-user-edit"></i>&nbsp;Gurito</a>
           </div>
 
           <div class="main__view" data-aos>
@@ -130,6 +134,8 @@
                 <div class="quality__text">Si estás en noveno, décimo u once grado y no sabes qué carrera o
                   qué universidad escoger… ¡Regístrate! Te contactaremos con estudiantes universitarios que
                   se encuentren matriculados en la carrera de tu interés.</div>
+                <a class="main__btn btn btn_purple mb-3" data-bs-toggle="modal"
+                  data-bs-target="#explanationGuritoModal"><i class="fas fa-user-edit"></i>&nbsp;Conoce más</a>
               </div>
             </div>
           </div>
@@ -142,6 +148,8 @@
                   Pues ahora tú puedes ayudar a un futuro primiparo a tomar la decisión correcta. Tan solo
                   regístrate y cuéntales en una corta conversación tus experiencias, trucos y consejos para
                   estudiar tu carrera.</div>
+                <a class="main__btn btn btn_purple mb-3" data-bs-toggle="modal"
+                  data-bs-target="#explanationGuruhModal"><i class="fas fa-user-edit"></i>&nbsp;Conoce más</a>
               </div>
             </div>
           </div>
@@ -375,8 +383,210 @@
           </div>
         </div>
       </div>
-      <script src="js/app.js"></script>
-      <script src="js/common.js"></script>
+    </div>
+  </div>
+
+  <!-- The explanationGuruhModal Modal -->
+  <div class="modal fade" id="explanationGuruhModal" tabindex="-1" aria-labelledby="explanationGuruhModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Guruh</h2>
+          <div class="package__info mb-4">Explicación de Guruh Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+          </div>
+          <div class="row text-center mb-4">
+            <div class="col-md-6">
+              <img class="design__pic__pilares__analisis img-fluid" src="img/pilares-analisis.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <img class="design__pic__pilares__analisis img-fluid" src="img/pilares-conexion.svg" alt="">
+            </div>
+          </div>
+          <div class="package__btns justify-content-center">
+            <a class="main__btn btn btn_purple mb-3" onclick="$('#explanationGuruhModal').modal('hide')"
+              data-bs-toggle="modal" data-bs-target="#registerGuruhFormModal"><i
+                class="fas fa-user-edit"></i>&nbsp;Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- The explanationGuritoModal Modal -->
+  <div class="modal fade" id="explanationGuritoModal" tabindex="-1" aria-labelledby="explanationGuritoModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Gurito</h2>
+          <div class="package__info mb-4">Explicación de Guruh Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+          </div>
+          <div class="row text-center mb-4">
+            <div class="col-md-6">
+              <img class="design__pic__pilares__analisis img-fluid" src="img/pilares-analisis.svg" alt="">
+            </div>
+            <div class="col-md-6">
+              <img class="design__pic__pilares__analisis img-fluid" src="img/pilares-conexion.svg" alt="">
+            </div>
+          </div>
+          <div class="package__btns justify-content-center">
+            <a class="main__btn btn btn_purple mb-3" onclick="$('#explanationGuritoModal').modal('hide')"
+              data-bs-toggle="modal" data-bs-target="#registerGuritoFormModal"><i
+                class="fas fa-user-edit"></i>&nbsp;Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The registerGuritoFormModal Modal -->
+  <div class="modal fade" id="registerGuritoFormModal" tabindex="-1" aria-labelledby="registerGuritoFormModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Regístrate como Gurito</h2>
+          <div class="row mb-4 p-4">
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Nombre</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package__btns justify-content-center text-center">
+            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The registerGuruhFormModal Modal -->
+  <div class="modal fade" id="registerGuruhFormModal" tabindex="-1" aria-labelledby="registerGuruhFormModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Regístrate como Guruh</h2>
+          <div class="row mb-4 p-4">
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Nombre</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Username or Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package__btns justify-content-center text-center">
+            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <script src="js/common.js"></script>
 </body>
 
 </html>
