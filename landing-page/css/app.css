@@ -4165,7 +4165,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 505px;
   height: 505px;
   margin-left: auto;
-  padding: 0 90px 35px 95px;
+  padding: 4rem 5rem;
   border-radius: 50%;
   background: #5956E9;
 }
@@ -4189,7 +4189,6 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .work__text {
-  margin-bottom: 24px;
   font-size: 22px;
   line-height: 1.5;
   font-weight: 500;
@@ -9218,11 +9217,11 @@ body:not(.touch-device) .header__item:hover .header__body {
   .work__details {
     right: 50%;
     bottom: -196px;
-    display: inline-block;
-    width: 505px;
-    height: 505px;
-    margin-right: -252px;
-    padding: 48px 90px 0;
+    display: flex;
+    width: 405px;
+    height: 405px;
+    margin-right: -202px;
+    padding: 2rem 3rem 0;
     text-align: center;
   }
   .work__icon {
