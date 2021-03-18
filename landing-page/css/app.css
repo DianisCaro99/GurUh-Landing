@@ -3905,7 +3905,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .plan__info {
-  max-width: 380px;
+  max-width: 700px;
   margin: 0 auto 34px;
 }
 
@@ -4193,7 +4193,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   font-size: 22px;
   line-height: 1.5;
   font-weight: 500;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 0;
   color: #fff;
 }
@@ -8802,7 +8802,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     width: 320px;
   }
   .title {
-    font-size: 48px;
+    font-size: 40px;
   }
   .title__line:before {
     left: calc(100% + 7px);
