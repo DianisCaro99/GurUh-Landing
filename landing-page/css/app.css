@@ -4062,8 +4062,9 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .plan__money {
   margin-right: 5px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: center;
   line-height: 1.1;
   color: #5956E9;
 }
