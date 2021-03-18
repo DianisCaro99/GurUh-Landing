@@ -4193,6 +4193,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   font-size: 22px;
   line-height: 1.5;
   font-weight: 500;
+  text-align: justify;
   letter-spacing: 0;
   color: #fff;
 }
@@ -8399,6 +8400,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     width: 450px;
     height: 450px;
     padding: 0 55px;
+    justify-content: center;
   }
   .work__circle:nth-child(3) {
     left: -30px;
