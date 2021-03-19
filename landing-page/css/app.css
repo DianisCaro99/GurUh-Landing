@@ -2079,6 +2079,9 @@ body.no-scroll {
 .btn_white {
   background: #fff;
   color: #FF914D;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .btn_border {
