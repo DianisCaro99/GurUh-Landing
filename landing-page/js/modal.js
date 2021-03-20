@@ -6,6 +6,7 @@ var Modal = (function() {
   var content = $qsa('.modal__content'); // the inner content of the modal
 	var closers = $qsa('.modal__close'); // an element used to close the modal
   var changers = $qsa(`.modal__change`); // elemento que cambia el contenido del modal
+  var initialModal = document.getElementById(`contenidoModal`).cloneNode(true);
   var w = window;
   var isOpen = false;
 	var contentDelay = 400; // duration after you click the button and wait for the content to show
@@ -99,7 +100,6 @@ var Modal = (function() {
   };
 
   var open = function(m, div) {
-
     if (!isOpen) {
       // select the content inside the modal
       var content = m.querySelector('.modal__content');
@@ -127,15 +127,15 @@ var Modal = (function() {
   };
 
   var change = function(event){
-    console.log(event);
-
-    let contentTmp = $qsa('.modal__content');
-    removeAllChildNodes(contentTmp);
+    let contenidoModal= document.getElementById("contenidoModal");
+    let tipoForm=event.path[0].getAttribute(`data-form`);
+    console.log(tipoForm);
+     // get the value of the data-modal attribute from the button
+    contenidoModal.innerHTML=``; 
   }
 
   var close = function(event) {
-    
-    console.log(event);
+    console.log(initialModal);
 		event.preventDefault();
     event.stopImmediatePropagation();
 
@@ -168,9 +168,7 @@ var Modal = (function() {
 
       // when the temporary div is opacity:1 again, we want to remove it from the dom
 			div.addEventListener('transitionend', removeDiv, false);
-
       isOpen = false;
-
     }
 
     function removeDiv() {
@@ -180,6 +178,8 @@ var Modal = (function() {
           div.remove();
         });
       }, contentDelay - 50);
+      document.getElementById("contenidoModal").innerHTML=initialModal.innerHTML;
+      $qsa(`.modal__change`).forEach(p=>{p.addEventListener('click',change,false)});    
     }
 
   };
@@ -190,7 +190,7 @@ var Modal = (function() {
       closers[i].addEventListener('click', close, false);
       modalsbg[i].addEventListener('click', close, false); 
     }
-    changers.forEach(p=>{p.addEventListener('click',change)});
+    changers.forEach(p=>{p.addEventListener('click',change,false)});
   };
 
   var init = function() {
