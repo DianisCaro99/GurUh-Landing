@@ -2621,8 +2621,9 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .title__color {
-  color: #DB334C;
+  color: #d1646a;
 }
+
 
 .title_sm {
   font-size: 40px;
@@ -2876,7 +2877,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: calc(50% - 620px);
   width: 48px;
   height: 48px;
-  background: #FAB8C4;
+  background: #FFAC67;
 }
 
 .main__circle:nth-child(3) {
@@ -2902,7 +2903,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   width: 180px;
   height: 180px;
-  background: #FAB8C4;
+  background: #FFAC67;
 }
 
 .main__circle:nth-child(6) {
@@ -3728,7 +3729,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 410px;
   height: 410px;
   margin-top: -205px;
-  background: #FAB8C4;
+  background: #F7B695;
 }
 
 .like__pic {
@@ -3775,7 +3776,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: 44.5%;
   width: 70px;
   height: 70px;
-  background: #FAB8C4;
+  background: #F7B695;
 }
 
 .like__circles .like__circle:nth-child(3) {
@@ -3783,7 +3784,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   right: 150px;
   width: 90px;
   height: 90px;
-  background: #5956E9;
+  background: #2C365E;
 }
 
 .like__circles .like__circle:nth-child(4) {
@@ -3791,7 +3792,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   right: 26px;
   width: 24px;
   height: 24px;
-  background: #FAB8C4;
+  background: #F7B695;
 }
 
 .switch {
@@ -3977,7 +3978,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .plan__item:first-child {
-  background: #5956E9;
+  background: #2c365e;
   color: #fff;
 }
 
@@ -3998,13 +3999,14 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .plan__item:nth-child(2) {
-  background: #fff;
+  background: #2c365e;
   -webkit-box-shadow: 0 20px 40px rgba(41, 41, 48, 0.05);
   box-shadow: 0 20px 40px rgba(41, 41, 48, 0.05);
 }
 
 .plan__item:nth-child(3) {
-  border: 1px solid #E3E6E9;
+  background: #2c365e;
+  
 }
 
 .plan__item:not(:first-child) {
@@ -4124,7 +4126,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   height: 923px;
   margin-bottom: 239px;
   padding: 148px 0 0;
-  background: #FAB8C4;
+  background: #F7B695;
 }
 
 .work__head {
@@ -4145,7 +4147,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .work__title .title__color {
-  color: #3A38BF;
+  color: #2C365E;
 }
 
 .work__details {
@@ -4171,7 +4173,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   margin-left: auto;
   padding: 4rem 5rem;
   border-radius: 50%;
-  background: #5956E9;
+  background: #2C365E;
 }
 
 .work__icon {
@@ -4271,6 +4273,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   background: #fff;
 }
 
+
 .work__circle:nth-child(4) {
   left: calc(50% - 109px);
   bottom: 77px;
@@ -4284,7 +4287,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: calc(50% - 179px);
   width: 204px;
   height: 204px;
-  background: #5956E9;
+  background: #2C365E;
 }
 
 .work__wave, .work__preview, .work__hand, .work__cursor {
