@@ -1,7 +1,7 @@
 var Modal = (function() {
 
   var trigger = $qsa('.modal__trigger'); // what you click to activate the modal
-  var modals = $qsa('.modal'); // the entire modal (takes up entire window)
+  var modals = $qsa('.modalInicial'); // the entire modal (takes up entire window)
   var modalsbg = $qsa('.modal__bg'); // the entire modal (takes up entire window)
   var content = $qsa('.modal__content'); // the inner content of the modal
 	var closers = $qsa('.modal__close'); // an element used to close the modal
@@ -135,7 +135,6 @@ var Modal = (function() {
   }
 
   var close = function(event) {
-    console.log(initialModal);
 		event.preventDefault();
     event.stopImmediatePropagation();
 
@@ -202,5 +201,10 @@ var Modal = (function() {
   };
 
 }());
-
+var formGuruh =function (){
+  $('#registerGuruhFormModal').modal("show")
+}
+var formGurito =function (){
+  $('#registerGuritoFormModal').modal("show")
+}
 Modal.init();

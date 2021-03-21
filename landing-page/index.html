@@ -27,6 +27,8 @@
   <meta property="og:description" content="Visually Stunning Responsive HTML Template for Design Startups">
   <meta property="og:site_name" content="Collab">
   <meta property="fb:admins" content="132951670226590">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" media="all" href="css/app.css">
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f307b5af88/UntitledProject/style-svg.css">
   <script defer src="https://i.icomoon.io/public/temp/f307b5af88/UntitledProject/svgxuse.js"></script>
@@ -375,7 +377,7 @@
         </div>
       </div>
       <!--MODAL A partir del boton de registrarse-->
-      <div id="modal2" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+      <div id="modal2" class="modalInicial modal--align-top modal__bg" role="dialog" aria-hidden="true">
         <div class="modal__dialog">
           <div class="modal__content">
             <div class="contenidoModal" id="contenidoModal">
@@ -385,15 +387,16 @@
                 Únete a la comunidad de guritos, ¡Resuelve todas tus dudas con respecto a las carreras que te llamen la
                 atención!.
               </p>
-              <a class="btn btn_white modal__change" data-form="gurito" href="">
+              <a class="btn btn_white modal__close open_register_gurito" data-form="gurito" href=""
+                onclick="formGurito()">
                 <i class="fas fa-user-edit"></i>&nbsp;Ser un gurito</a>
               <h1>Sé un gurUh</h1>
-              <h3>Estudiantes universitarios</h3>
+              <h3>Estudiante universitario</h3>
               <p>
                 Sé parte de una comunidad de estudiantes universitarios que brindan apoyo a la comunidad educativa
                 mediante su experiencia personal.
               </p>
-              <a class="btn btn_white modal__change" data-form="guruh" href="">
+              <a class="btn btn_white modal__close open_register_guruh" data-form="guruh" href="" onclick="formGuruh()">
                 <i class="fas fa-user-edit"></i>&nbsp;Ser un gurUh</a>
             </div>
             <!-- modal close button -->
@@ -407,9 +410,229 @@
           </div>
         </div>
       </div>
-      <script src="js/app.js"></script>
-      <script src="js/common.js"></script>
-      <script src="js/modal.js"></script>
+    </div>
+  </div>
+
+  <!-- The registerGuritoFormModal Modal -->
+  <div class="modal fade" id="registerGuritoFormModal" tabindex="-1" aria-labelledby="registerGuritoFormModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Regístrate como Gurito</h2>
+          <div class="row mb-4 p-4">
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Nombre(s)</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Apellidos</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="text" name="apellidos" place)holder="Apellidos">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Número telefónico</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="text" name="numTelefono" placeholder="Número de teléfono">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <input class="field__input" type="email" name="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">País</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="pais" name="country" class="field__input" title="Selecciona tu país de residencia"
+                    data-size="20" data-live-search="true">
+                    <option>Colombia</option>
+                    <option>Suiza</option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Carrera(s)</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="carrera" name="carrera" class="field__input" data-size="20" multiple
+                    title="Selecciona tu/tus carreras de interés" data-icon-base="lnr"
+                    data-tick-icon="lnr lnr-checkmark-circle" data-live-search="true">
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">¿Cómo nos conociste?</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="canal" name="state" class="field__input" title="Selecciona una opción" data-size="20">
+                    <option>Facebook</option>
+                    <option>Instagram</option>
+                    <option>TikTok</option>
+                    <option>Whatsapp</option>
+                    <option>Mi colegio los recomendó</option>
+                    <option>Un amigo los recomendó</option>
+                    <option>Un afiche en la calle</option>
+                    <option>S-MAP</option>
+                    <option>Estudios Dirigidos/Herramientas para la vida Universitaria
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package__btns d-block justify-content-center text-center">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Acepto terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  No me molesta compartir mi asesoría
+                </label>
+              </div>
+            </div>
+            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The registerGuruhFormModal Modal -->
+  <div class="modal fade" id="registerGuruhFormModal" tabindex="-1" aria-labelledby="registerGuruhFormModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
+          data-aos-delay="400">
+          <h2 class="package__title title title_sm">Regístrate como Guruh</h2>
+          <div class="row mb-4 p-4">
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Nombre(s)</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Apellidos</div>
+                <div class="field__wrap">
+                  <input class="field__input" type="text" name="apellidos" place)holder="Apellidos">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Número telefónico</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
+                    class="field__input" type="text" name="numTelefono" placeholder="Número de teléfono">
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Email institucional</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <input class="field__input" type="email" name="email" placeholder="Email institucional">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry__field field">
+                <div class="field__label">Carrera(s)</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="carrera" name="carrera" class="field__input" data-size="20" multiple
+                    title="Selecciona tu/tus carreras de interés" data-icon-base="lnr"
+                    data-tick-icon="lnr lnr-checkmark-circle" data-live-search="true">
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">¿Cómo nos conociste?</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="canal" name="state" class="field__input" title="Selecciona una opción" data-size="20">
+                    <option>Facebook</option>
+                    <option>Instagram</option>
+                    <option>TikTok</option>
+                    <option>Whatsapp</option>
+                    <option>Mi colegio los recomendó</option>
+                    <option>Un amigo los recomendó</option>
+                    <option>Un afiche en la calle</option>
+                    <option>S-MAP</option>
+                    <option>Estudios Dirigidos/Herramientas para la vida Universitaria
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Universidad</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="pais" name="country" class="field__input" title="Selecciona tu país de residencia"
+                    data-size="20" data-live-search="true">
+                    <option>Colombia</option>
+                    <option>Suiza</option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Gusto por la carrera</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="gusto" name="state" class="field__input" title="¿De 1 a 5 que tanto te gusta tu carrera?"
+                    data-size="20">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package__btns d-block justify-content-center text-center">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Acepto terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>
