@@ -5365,7 +5365,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .design__slide:first-child .design__view, .design__slide:nth-child(4) .design__view {
-  background: #FAB8C4;
+  background: #fadbb8;
 }
 
 .design__slide:first-child .design__preview__analisis, .design__slide:nth-child(4) .design__preview__analisis {
@@ -5386,7 +5386,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .design__slide:nth-child(2), .design__slide:nth-child(5) {
-  background: #FFEDDC;
+  background: #ffdce5;
 }
 
 .design__slide:nth-child(2) .design__view, .design__slide:nth-child(5) .design__view {
