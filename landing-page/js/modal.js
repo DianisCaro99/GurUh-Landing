@@ -1,10 +1,12 @@
 var Modal = (function() {
 
   var trigger = $qsa('.modal__trigger'); // what you click to activate the modal
-  var modals = $qsa('.modal'); // the entire modal (takes up entire window)
+  var modals = $qsa('.modalInicial'); // the entire modal (takes up entire window)
   var modalsbg = $qsa('.modal__bg'); // the entire modal (takes up entire window)
   var content = $qsa('.modal__content'); // the inner content of the modal
 	var closers = $qsa('.modal__close'); // an element used to close the modal
+  var changers = $qsa(`.modal__change`); // elemento que cambia el contenido del modal
+  var initialModal = document.getElementById(`contenidoModal`).cloneNode(true);
   var w = window;
   var isOpen = false;
 	var contentDelay = 400; // duration after you click the button and wait for the content to show
@@ -14,9 +16,14 @@ var Modal = (function() {
   function $qsa(el) {
     return document.querySelectorAll(el);
   }
+  // make it essier to delete all the children of a node
+  function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+  }
 
   var getId = function(event) {
-
     event.preventDefault();
     var self = this;
     // get the value of the data-modal attribute from the button
@@ -93,7 +100,6 @@ var Modal = (function() {
   };
 
   var open = function(m, div) {
-
     if (!isOpen) {
       // select the content inside the modal
       var content = m.querySelector('.modal__content');
@@ -120,8 +126,15 @@ var Modal = (function() {
     }
   };
 
-  var close = function(event) {
+  var change = function(event){
+    let contenidoModal= document.getElementById("contenidoModal");
+    let tipoForm=event.path[0].getAttribute(`data-form`);
+    console.log(tipoForm);
+     // get the value of the data-modal attribute from the button
+    contenidoModal.innerHTML=``; 
+  }
 
+  var close = function(event) {
 		event.preventDefault();
     event.stopImmediatePropagation();
 
@@ -154,9 +167,7 @@ var Modal = (function() {
 
       // when the temporary div is opacity:1 again, we want to remove it from the dom
 			div.addEventListener('transitionend', removeDiv, false);
-
       isOpen = false;
-
     }
 
     function removeDiv() {
@@ -166,6 +177,8 @@ var Modal = (function() {
           div.remove();
         });
       }, contentDelay - 50);
+      document.getElementById("contenidoModal").innerHTML=initialModal.innerHTML;
+      $qsa(`.modal__change`).forEach(p=>{p.addEventListener('click',change,false)});    
     }
 
   };
@@ -174,8 +187,9 @@ var Modal = (function() {
     for (var i = 0; i < len; i++) {
       trigger[i].addEventListener('click', getId, false);
       closers[i].addEventListener('click', close, false);
-      modalsbg[i].addEventListener('click', close, false);
+      modalsbg[i].addEventListener('click', close, false); 
     }
+    changers.forEach(p=>{p.addEventListener('click',change,false)});
   };
 
   var init = function() {
@@ -187,5 +201,10 @@ var Modal = (function() {
   };
 
 }());
-
+var formGuruh =function (){
+  $('#registerGuruhFormModal').modal("show")
+}
+var formGurito =function (){
+  $('#registerGuritoFormModal').modal("show")
+}
 Modal.init();
