@@ -1,0 +1,1738 @@
+{
+    "programas": [
+        {
+            "nombre": "ACUICULTURA"
+        },
+        {
+            "nombre": "ADMINISTRACION & SERVICIO"
+        },
+        {
+            "nombre": "ADMINISTRACION AERONAUTICA"
+        },
+        {
+            "nombre": "ADMINISTRACION AGROINDUSTRIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION AGROPECUARIA"
+        },
+        {
+            "nombre": "ADMINISTRACION AMBIENTAL"
+        },
+        {
+            "nombre": "ADMINISTRACION AMBIENTAL Y SANITARIA"
+        },
+        {
+            "nombre": "ADMINISTRACION BANCARIA Y FINANCIERA"
+        },
+        {
+            "nombre": "ADMINISTRACION COMERCIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION COMERCIAL Y DE MERCADEO"
+        },
+        {
+            "nombre": "ADMINISTRACION DE AGRONEG."
+        },
+        {
+            "nombre": "ADMINISTRACION DE COMERCIO EXTERIOR"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS AGROPECUARIAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS COMERCIALES"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS EN TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS TURISTICAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS TURISTICAS Y HOTELERAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS Y FINANZAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE EMPRESAS Y GESTION AMBIENTAL"
+        },
+        {
+            "nombre": "ADMINISTRACION DE HOTELERIA Y TURISMO"
+        },
+        {
+            "nombre": "ADMINISTRACION DE CADENA DE SUMINISTRO Y LOGISTICA"
+        },
+        {
+            "nombre": "ADMINISTRACION DE CALIDAD"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SALUD OCUPACIONAL"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SEGURIDAD SOCIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SEGURIDAD Y SALUD OCUPACIONAL"
+        },
+        {
+            "nombre": "ADMINISTRACION DE MERCADEO"
+        },
+        {
+            "nombre": "ADMINISTRACION DE MERCADEO Y LOGISTICA INTERNACIONALES"
+        },
+        {
+            "nombre": "ADMINISTRACION DE NEG."
+        },
+        {
+            "nombre": "ADMINISTRACION DE NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "ADMINISTRACION DE OBRAS DE ARQUITECTURA"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SERVICIOS DE SALUD"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SISTEMAS"
+        },
+        {
+            "nombre": "ADMINISTRACION DE SISTEMAS INFORMATICOS"
+        },
+        {
+            "nombre": "ADMINISTRACION DEL COMERCIO INTERNACIONAL"
+        },
+        {
+            "nombre": "ADMINISTRACION DEL TURISMO SOSTENIBLE"
+        },
+        {
+            "nombre": "ADMINISTRACION DEPORTIVA"
+        },
+        {
+            "nombre": "ADMINISTRACION EN LOGISTICA Y PRODUCCION"
+        },
+        {
+            "nombre": "ADMINISTRACION EN SALUD"
+        },
+        {
+            "nombre": "ADMINISTRACION EN SEGURIDAD Y SALUD EN EL TRABAJO"
+        },
+        {
+            "nombre": "ADMINISTRACION FINANCIERA"
+        },
+        {
+            "nombre": "ADMINISTRACION FINANCIERA Y DE SISTEMAS"
+        },
+        {
+            "nombre": "ADMINISTRACION HOTELERA Y DE SERVICIOS"
+        },
+        {
+            "nombre": "ADMINISTRACION HOTELERA Y GASTRONOMICA"
+        },
+        {
+            "nombre": "ADMINISTRACION HUMANA"
+        },
+        {
+            "nombre": "ADMINISTRACION INDUSTRIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION LOGISTICA"
+        },
+        {
+            "nombre": "ADMINISTRACION MARITIMA Y FLUVIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION MARITIMA Y PORTUARIA"
+        },
+        {
+            "nombre": "ADMINISTRACION POLICIAL"
+        },
+        {
+            "nombre": "ADMINISTRACION PUBLICA"
+        },
+        {
+            "nombre": "ADMINISTRACION TECNOLOGICA"
+        },
+        {
+            "nombre": "ADMINISTRACION TURISTICA Y DEL PATRIMONIO"
+        },
+        {
+            "nombre": "ADMINISTRACION TURISTICA Y HOTELERA"
+        },
+        {
+            "nombre": "ADMINISTRACION Y GESTION PROPIA"
+        },
+        {
+            "nombre": "ADMINISTRACION Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "ADMINISTRACION Y SERVICIO"
+        },
+        {
+            "nombre": "ADMINSITRACION DE EMPRESAS"
+        },
+        {
+            "nombre": "ADMINSITRACION TURISTICA Y HOTELERA"
+        },
+        {
+            "nombre": "AGROECOLOGIA"
+        },
+        {
+            "nombre": "AGRONOMIA"
+        },
+        {
+            "nombre": "ANIMACION"
+        },
+        {
+            "nombre": "ANTROPOLOGIA"
+        },
+        {
+            "nombre": "ARCHIVISTICA"
+        },
+        {
+            "nombre": "ARCHIVISTICA Y GESTION DE INFORMACION DIGITAL"
+        },
+        {
+            "nombre": "ARQUEOLOGIA"
+        },
+        {
+            "nombre": "ARQUITECTURA"
+        },
+        {
+            "nombre": "ARTE DANZARIO"
+        },
+        {
+            "nombre": "ARTE DRAMATICO"
+        },
+        {
+            "nombre": "ARTES"
+        },
+        {
+            "nombre": "ARTES AUDIOVISUALES"
+        },
+        {
+            "nombre": "ARTES CULINARIAS Y GASTRONOMIA"
+        },
+        {
+            "nombre": "ARTES DE GRABACION Y PRODUCCION MUSICAL"
+        },
+        {
+            "nombre": "ARTES ESCENICAS"
+        },
+        {
+            "nombre": "ARTES LIBERALES EN CIENCIAS SOCIALES"
+        },
+        {
+            "nombre": "ARTES MUSICALES"
+        },
+        {
+            "nombre": "ARTES PLASTICAS"
+        },
+        {
+            "nombre": "ARTES VISUALES"
+        },
+        {
+            "nombre": "ASTRONOMIA"
+        },
+        {
+            "nombre": "BACTERIOLOGIA"
+        },
+        {
+            "nombre": "BACTERIOLOGIA Y LABORATORIO CLINICO"
+        },
+        {
+            "nombre": "BANCA Y FINANZAS"
+        },
+        {
+            "nombre": "BIBLIOTECOLOGIA"
+        },
+        {
+            "nombre": "BIOINGENIERIA"
+        },
+        {
+            "nombre": "BIOLOGIA"
+        },
+        {
+            "nombre": "BIOLOGIA AMBIENTAL"
+        },
+        {
+            "nombre": "BIOLOGIA APLICADA"
+        },
+        {
+            "nombre": "BIOLOGIA MARINA"
+        },
+        {
+            "nombre": "BIOQUIMICA"
+        },
+        {
+            "nombre": "BIOTECNOLOGIA"
+        },
+        {
+            "nombre": "BUEN VIVIR COMUNITARIO"
+        },
+        {
+            "nombre": "CIENCIA DE DATOS"
+        },
+        {
+            "nombre": "CIENCIA DE INFORMACION Y BIBLIOTECOLOGIA"
+        },
+        {
+            "nombre": "CIENCIAS AMBIENTALES"
+        },
+        {
+            "nombre": "CIENCIAS BIBLICAS"
+        },
+        {
+            "nombre": "CIENCIAS CULINARIAS"
+        },
+        {
+            "nombre": "CIENCIAS CULINARIAS DE GASTRONOMIA"
+        },
+        {
+            "nombre": "CIENCIAS DE COMPUTACION"
+        },
+        {
+            "nombre": "CIENCIAS DEL DEPORTE"
+        },
+        {
+            "nombre": "CIENCIAS DEL DEPORTE Y DE ACTIVIDAD FISICA"
+        },
+        {
+            "nombre": "CIENCIAS DEL DEPORTE Y LA RECREACION"
+        },
+        {
+            "nombre": "CIENCIAS MILITARES"
+        },
+        {
+            "nombre": "CIENCIAS MILITARES AERONAUTICAS"
+        },
+        {
+            "nombre": "CIENCIAS NAUTICAS PARA OFICIALES MERCANTES"
+        },
+        {
+            "nombre": "CIENCIAS NAVALES PARA OFICIALES DE INFANTERIA DE MARINA"
+        },
+        {
+            "nombre": "CIENCIAS NAVALES PARA OFICIALES NAVALES"
+        },
+        {
+            "nombre": "CIENCIAS POLITICAS"
+        },
+        {
+            "nombre": "CIENCIAS POLITICAS Y GOBIERNO"
+        },
+        {
+            "nombre": "CIENCIAS POLITICAS Y RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "CINE"
+        },
+        {
+            "nombre": "CINE Y AUDIOVISUALES"
+        },
+        {
+            "nombre": "CINE Y COMUNICACION DIGITAL"
+        },
+        {
+            "nombre": "CINE Y TELEVISION"
+        },
+        {
+            "nombre": "COMERCIO EXTERIOR"
+        },
+        {
+            "nombre": "COMERCIO INTERNACIONAL"
+        },
+        {
+            "nombre": "COMERCIO Y FINANZAS INTERNACIONALES"
+        },
+        {
+            "nombre": "COMERCIO Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "COMPUTACION CIENTIFICA"
+        },
+        {
+            "nombre": "COMUNICACION"
+        },
+        {
+            "nombre": "COMUNICACION AUDIOVISUAL"
+        },
+        {
+            "nombre": "COMUNICACION AUDIOVISUAL Y DIGITAL"
+        },
+        {
+            "nombre": "COMUNICACION AUDIOVISUAL Y MULTIMEDIOS"
+        },
+        {
+            "nombre": "COMUNICACION CORPORATIVA"
+        },
+        {
+            "nombre": "COMUNICACION CORPORATIVA Y RELACIONES PUBLICAS"
+        },
+        {
+            "nombre": "COMUNICACION DIGITAL"
+        },
+        {
+            "nombre": "COMUNICACION GRAFICA PUBLICITARIA"
+        },
+        {
+            "nombre": "COMUNICACION ORGANIZACIONAL"
+        },
+        {
+            "nombre": "COMUNICACION PROPIA INTERCULTURAL"
+        },
+        {
+            "nombre": "COMUNICACION PUBLICITARIA"
+        },
+        {
+            "nombre": "COMUNICACION SOCIAL"
+        },
+        {
+            "nombre": "COMUNICACION SOCIAL Y MEDIOS DIGITALES"
+        },
+        {
+            "nombre": "COMUNICACION SOCIAL Y PERIODISMO"
+        },
+        {
+            "nombre": "COMUNICACION VISUAL"
+        },
+        {
+            "nombre": "COMUNICACION Y ENTRETENIMIENTO DIGITAL"
+        },
+        {
+            "nombre": "COMUNICACION Y LENGUAJES AUDIOVISUALES"
+        },
+        {
+            "nombre": "COMUNICACION Y RELACIONES CORPORATIVAS"
+        },
+        {
+            "nombre": "CONSERV. Y RESTAURACION DE PATRIMONIO CULTURAL"
+        },
+        {
+            "nombre": "CONSTRUCCION"
+        },
+        {
+            "nombre": "CONSTRUCCION Y GESTION EN ARQUITECTURA"
+        },
+        {
+            "nombre": "CONSTRUCCIONES CIVILES"
+        },
+        {
+            "nombre": "CONTADURIA INTERNACIONAL"
+        },
+        {
+            "nombre": "CONTADURIA PUBLICA"
+        },
+        {
+            "nombre": "CONTADURIA PUBLICA Y FINANZAS INTERNACIONALES"
+        },
+        {
+            "nombre": "CREACION LITERARIA"
+        },
+        {
+            "nombre": "CRIMINALISTICA"
+        },
+        {
+            "nombre": "CULTURA FISICA DEPORTE Y RECREACION"
+        },
+        {
+            "nombre": "DANZA"
+        },
+        {
+            "nombre": "DANZA Y DIRECCION COREOGRAFICA"
+        },
+        {
+            "nombre": "DEPORTE Y CULTURA FISICA"
+        },
+        {
+            "nombre": "DERECHO"
+        },
+        {
+            "nombre": "DERECHO PROPIO INTERCULTURAL"
+        },
+        {
+            "nombre": "DERECHO Y CIENCIAS POLITICAS"
+        },
+        {
+            "nombre": "DESARROLLO FAMILIAR"
+        },
+        {
+            "nombre": "DESARROLLO TERRITORIAL"
+        },
+        {
+            "nombre": "DIRECCION DE BANDA"
+        },
+        {
+            "nombre": "DIRECCION Y PRODUCCION DE CINE Y TELEVISION"
+        },
+        {
+            "nombre": "DIRECCION Y PRODUCCION DE MEDIOS AUDIOVISUALES"
+        },
+        {
+            "nombre": "DISENO GRAFICO"
+        },
+        {
+            "nombre": "DISE\u00d1O"
+        },
+        {
+            "nombre": "DISE\u00d1O CROSSMEDIA"
+        },
+        {
+            "nombre": "DISE\u00d1O DE COMUNICACION"
+        },
+        {
+            "nombre": "DISE\u00d1O DE COMUNICACION GRAFICA"
+        },
+        {
+            "nombre": "DISE\u00d1O DE COMUNICACION VISUAL"
+        },
+        {
+            "nombre": "DISE\u00d1O DE ESPACIOS"
+        },
+        {
+            "nombre": "DISE\u00d1O DE ESPACIOS - ESCENARIO"
+        },
+        {
+            "nombre": "DISE\u00d1O DE ESPACIOS ESCENICOS Y EXHIBICION COMERCIAL"
+        },
+        {
+            "nombre": "DISE\u00d1O DE ESPACIOS Y ESCENARIOS"
+        },
+        {
+            "nombre": "DISE\u00d1O DE MEDIOS INTERACTIVOS"
+        },
+        {
+            "nombre": "DISE\u00d1O DE MODA"
+        },
+        {
+            "nombre": "DISE\u00d1O DE MODAS"
+        },
+        {
+            "nombre": "DISE\u00d1O DE VESTUARIO"
+        },
+        {
+            "nombre": "DISE\u00d1O DIGITAL"
+        },
+        {
+            "nombre": "DISE\u00d1O DIGITAL Y MULTIMEDIA"
+        },
+        {
+            "nombre": "DISE\u00d1O GRAFICO"
+        },
+        {
+            "nombre": "DISE\u00d1O HIPERMEDIA"
+        },
+        {
+            "nombre": "DISE\u00d1O INDUSTRIAL"
+        },
+        {
+            "nombre": "DISE\u00d1O INTERACTIVO"
+        },
+        {
+            "nombre": "DISE\u00d1O INTERIOR"
+        },
+        {
+            "nombre": "DISE\u00d1O VISUAL"
+        },
+        {
+            "nombre": "DISE\u00d1O VISUAL DIGITAL"
+        },
+        {
+            "nombre": "DISE\u00d1O VISUAL ESTRATEGICO"
+        },
+        {
+            "nombre": "DISE\u00d1O Y ADMINISTRACION DE NEG. DE MODA"
+        },
+        {
+            "nombre": "DISE\u00d1O Y GESTION DE ESPACIOS"
+        },
+        {
+            "nombre": "DISE\u00d1O Y GESTION DE MODA"
+        },
+        {
+            "nombre": "DISE\u00d1O Y GESTION DE MODA Y EL TEXTIL"
+        },
+        {
+            "nombre": "DISE\u00d1O Y GESTION DEL PRODUCTO"
+        },
+        {
+            "nombre": "ECOLOGA"
+        },
+        {
+            "nombre": "ECOLOGIA"
+        },
+        {
+            "nombre": "ECOLOGIA DE ZONAS COSTERAS"
+        },
+        {
+            "nombre": "ECONOMIA"
+        },
+        {
+            "nombre": "ECONOMIA Y FINANZAS INTERNACIONALES"
+        },
+        {
+            "nombre": "ECONOMIA Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "EDUCACION FISICA MILITAR"
+        },
+        {
+            "nombre": "ENFERMERIA"
+        },
+        {
+            "nombre": "ENTRENAMIENTO DEPORTIVO"
+        },
+        {
+            "nombre": "ESPA\u00d1OL Y FILOLOGIA CLASICA"
+        },
+        {
+            "nombre": "ESTADISTICA"
+        },
+        {
+            "nombre": "ESTADISTICA Y CIENCIAS ACTUARIALES"
+        },
+        {
+            "nombre": "ESTUDIOS EN FILOSOFIA"
+        },
+        {
+            "nombre": "ESTUDIOS LITERARIOS"
+        },
+        {
+            "nombre": "ESTUDIOS LITERARIOS Y EDICION"
+        },
+        {
+            "nombre": "ESTUDIOS MUSICALES"
+        },
+        {
+            "nombre": "ESTUDIOS POLITICOS Y RESOLUCION DE CONFLICTOS"
+        },
+        {
+            "nombre": "ESTUDIOS Y GESTION CULTURAL"
+        },
+        {
+            "nombre": "FARMACIA"
+        },
+        {
+            "nombre": "FILOLOGIA E IDIOMAS"
+        },
+        {
+            "nombre": "FILOLOGIA HISPANICA"
+        },
+        {
+            "nombre": "FILOSOFIA"
+        },
+        {
+            "nombre": "FILOSOFIA Y HUMANIDADES"
+        },
+        {
+            "nombre": "FILOSOFIA Y LETRAS"
+        },
+        {
+            "nombre": "FINANZAS"
+        },
+        {
+            "nombre": "FINANZAS INTERNACIONALES"
+        },
+        {
+            "nombre": "FINANZAS Y COMERCIO EXTERIOR"
+        },
+        {
+            "nombre": "FINANZAS Y COMERCIO INTERNACIONAL"
+        },
+        {
+            "nombre": "FINANZAS Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "FINANZAS Y RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "FISICA"
+        },
+        {
+            "nombre": "FISIOTERAPIA"
+        },
+        {
+            "nombre": "FONOAUDIOLOGIA"
+        },
+        {
+            "nombre": "FORMACION DE EMPRESARIOS"
+        },
+        {
+            "nombre": "FORMACION MUSICAL"
+        },
+        {
+            "nombre": "FOTOGRAFIA"
+        },
+        {
+            "nombre": "FOTOGRAFIA Y COMUNICACION VISUAL"
+        },
+        {
+            "nombre": "GASTRONOMIA"
+        },
+        {
+            "nombre": "GASTRONOMIA Y ARTES CULINARIAS"
+        },
+        {
+            "nombre": "GASTRONOMIA Y COCINA PRFSNL"
+        },
+        {
+            "nombre": "GEOCIENCIAS"
+        },
+        {
+            "nombre": "GEOGRAFIA"
+        },
+        {
+            "nombre": "GEOGRAFIA DEL DESARROLLO REGIONAL Y AMBIENTAL"
+        },
+        {
+            "nombre": "GEOLOGIA"
+        },
+        {
+            "nombre": "GEOPOLITICA"
+        },
+        {
+            "nombre": "GERENCIA DE SEGURIDAD Y ANALISIS SOCIO POLITICO"
+        },
+        {
+            "nombre": "GERENCIA EN SISTEMAS DE INFORMACION EN SALUD"
+        },
+        {
+            "nombre": "GERONTOLOGIA"
+        },
+        {
+            "nombre": "GESTION CULTURAL"
+        },
+        {
+            "nombre": "GESTION CULTURAL Y COMUNICATIVA"
+        },
+        {
+            "nombre": "GESTION CULTURAL Y DE INDUSTRIAS CREATIVAS"
+        },
+        {
+            "nombre": "GESTION DEL EMPRENDIMIENTO Y LA INNOVACION"
+        },
+        {
+            "nombre": "GESTION DEPORTIVA"
+        },
+        {
+            "nombre": "GESTION EN ECOLOGIA Y TURISMO"
+        },
+        {
+            "nombre": "GESTION TERRITORIAL Y ECONOMIA SOCIAL Y SOLIDARIA"
+        },
+        {
+            "nombre": "GESTION Y DESARROLLO URBANOS"
+        },
+        {
+            "nombre": "GOBIERNO Y ASUNTOS PUBLICOS"
+        },
+        {
+            "nombre": "GOBIERNO Y RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "HISTORIA"
+        },
+        {
+            "nombre": "HISTORIA DEL ARTE"
+        },
+        {
+            "nombre": "HISTORIA Y ARCHIVISTICA"
+        },
+        {
+            "nombre": "HISTORIA Y PATRIMONIO"
+        },
+        {
+            "nombre": "HOTELERIA Y TURISMO"
+        },
+        {
+            "nombre": "ING. ACUICOLA"
+        },
+        {
+            "nombre": "ING. ADMINISTRATIVA"
+        },
+        {
+            "nombre": "ING. AEROESPACIAL"
+        },
+        {
+            "nombre": "ING. AERONAUTICA"
+        },
+        {
+            "nombre": "ING. AGRICOLA"
+        },
+        {
+            "nombre": "ING. AGROECOLOGICA"
+        },
+        {
+            "nombre": "ING. AGROFORESTAL"
+        },
+        {
+            "nombre": "ING. AGROINDUSTRIAL"
+        },
+        {
+            "nombre": "ING. AGRONMICA"
+        },
+        {
+            "nombre": "ING. AGRONOMICA"
+        },
+        {
+            "nombre": "ING. AGROPECUARIA"
+        },
+        {
+            "nombre": "ING. AMBIENTAL"
+        },
+        {
+            "nombre": "ING. AMBIENTAL Y DE SANEAMIENTO"
+        },
+        {
+            "nombre": "ING. AMBIENTAL Y SANITARIA"
+        },
+        {
+            "nombre": "ING. BIOLOGICA"
+        },
+        {
+            "nombre": "ING. BIOMEDICA"
+        },
+        {
+            "nombre": "ING. BIOQUIMICA"
+        },
+        {
+            "nombre": "ING. BIOTECNOLOGICA"
+        },
+        {
+            "nombre": "ING. CATASTRAL Y GEODESIA"
+        },
+        {
+            "nombre": "ING. CIVIL"
+        },
+        {
+            "nombre": "ING. CIVIL (POR CICLOS PROPEDEUTICOS)"
+        },
+        {
+            "nombre": "ING. COMERCIAL"
+        },
+        {
+            "nombre": "ING. DE ALIMENTOS"
+        },
+        {
+            "nombre": "ING. DE CONTROL"
+        },
+        {
+            "nombre": "ING. DE DATOS Y SOFTWARE"
+        },
+        {
+            "nombre": "ING. DE DISE\u00d1O DE PRODUCTO"
+        },
+        {
+            "nombre": "ING. DE GAS Y PETROLEO"
+        },
+        {
+            "nombre": "ING. DE CALIDAD"
+        },
+        {
+            "nombre": "ING. DE LAS ARTES DIGITALES"
+        },
+        {
+            "nombre": "ING. DE MANTENIMIENTO"
+        },
+        {
+            "nombre": "ING. DE MANUFACTURA"
+        },
+        {
+            "nombre": "ING. DE MATERIALES"
+        },
+        {
+            "nombre": "ING. DE MERCADOS"
+        },
+        {
+            "nombre": "ING. DE MINAS"
+        },
+        {
+            "nombre": "ING. DE PETROLEOS"
+        },
+        {
+            "nombre": "ING. DE PLASTICOS"
+        },
+        {
+            "nombre": "ING. DE PROCESOS"
+        },
+        {
+            "nombre": "ING. DE PROCESOS DE REFINACION Y PETROQUIMICOS"
+        },
+        {
+            "nombre": "ING. DE PROCESOS INDUSTRIALES"
+        },
+        {
+            "nombre": "ING. DE PRODUCCION"
+        },
+        {
+            "nombre": "ING. DE PRODUCCION AGROINDUSTRIAL"
+        },
+        {
+            "nombre": "ING. DE PRODUCTIVIDAD Y CALIDAD"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS CIBERNETICOS"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS DE INFORMACION"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS E INFORMATICA"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS INFORMATICOS"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS Y COMPUTACION"
+        },
+        {
+            "nombre": "ING. DE SISTEMAS Y TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ING. DE SOFTWARE"
+        },
+        {
+            "nombre": "ING. DE SONIDO"
+        },
+        {
+            "nombre": "ING. DE TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ING. DE TELECOMUNICACIONES E INFORMATICA"
+        },
+        {
+            "nombre": "ING. DE TRANSPORTE Y VIAS"
+        },
+        {
+            "nombre": "ING. ELECTRICA"
+        },
+        {
+            "nombre": "ING. ELECTROMECANICA"
+        },
+        {
+            "nombre": "ING. ELECTRONICA"
+        },
+        {
+            "nombre": "ING. ELECTRONICA Y TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ING. EN AGROECOLOGIA"
+        },
+        {
+            "nombre": "ING. EN ANALITICA DE DATOS"
+        },
+        {
+            "nombre": "ING. EN AUTOMATICA INDUSTRIAL"
+        },
+        {
+            "nombre": "ING. EN AUTOMATIZACION"
+        },
+        {
+            "nombre": "ING. EN CIENCIA DE DATOS"
+        },
+        {
+            "nombre": "ING. EN CONTROL Y AUTOMATIZACION"
+        },
+        {
+            "nombre": "ING. EN CONTROL Y AUTOMATIZACION INDUSTRIAL"
+        },
+        {
+            "nombre": "ING. EN DISE\u00d1O DE ENTRETENIMIENTO DIGITAL"
+        },
+        {
+            "nombre": "ING. EN DISE\u00d1O INDUSTRIAL"
+        },
+        {
+            "nombre": "ING. EN ENERGIA"
+        },
+        {
+            "nombre": "ING. EN ENERGIAS"
+        },
+        {
+            "nombre": "ING. EN ENERGIAS RENOVABLES"
+        },
+        {
+            "nombre": "ING. EN INFORMATICA"
+        },
+        {
+            "nombre": "ING. EN INSTRUMENTACION Y CONTROL"
+        },
+        {
+            "nombre": "ING. EN INTELIGENCIA DE NEG."
+        },
+        {
+            "nombre": "ING. EN LOGISTICA"
+        },
+        {
+            "nombre": "ING. EN MECATRONICA"
+        },
+        {
+            "nombre": "ING. EN MULTIMEDIA"
+        },
+        {
+            "nombre": "ING. EN NANOTECNOLOGIA"
+        },
+        {
+            "nombre": "ING. EN PROCESOS AGROINDUSTRIALES"
+        },
+        {
+            "nombre": "ING. EN PROCESOS SOSTENIBLES DE LAS MADERAS"
+        },
+        {
+            "nombre": "ING. EN PRODUCCION ACUICOLA"
+        },
+        {
+            "nombre": "ING. EN REDES Y TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ING. EN SEGURIDAD DE INFORMACION"
+        },
+        {
+            "nombre": "ING. EN SEGURIDAD INDUSTRIAL E HIGIENE OCUPACIONAL"
+        },
+        {
+            "nombre": "ING. EN SEGURIDAD Y SALUD EN EL TRABAJO"
+        },
+        {
+            "nombre": "ING. EN SEGURIDAD Y SALUD PARA EL TRABAJO"
+        },
+        {
+            "nombre": "ING. EN SOFTWARE"
+        },
+        {
+            "nombre": "ING. EN TEC. DE INFORMACION Y LAS COMUNICACIONES"
+        },
+        {
+            "nombre": "ING. EN TELECOMUNICACIONES"
+        },
+        {
+            "nombre": "ING. EN TELEMATICA"
+        },
+        {
+            "nombre": "ING. EN TOPOGRAFIA"
+        },
+        {
+            "nombre": "ING. ENERGETICA"
+        },
+        {
+            "nombre": "ING. FINANCIERA"
+        },
+        {
+            "nombre": "ING. FISICA"
+        },
+        {
+            "nombre": "ING. FORESTAL"
+        },
+        {
+            "nombre": "ING. GEOGRAFICA Y AMBIENTAL"
+        },
+        {
+            "nombre": "ING. GEOLOGICA"
+        },
+        {
+            "nombre": "ING. INDUSTRIAL"
+        },
+        {
+            "nombre": "ING. INFORMATICA"
+        },
+        {
+            "nombre": "ING. LOGISTICA"
+        },
+        {
+            "nombre": "ING. MATEMATICA"
+        },
+        {
+            "nombre": "ING. MECANICA"
+        },
+        {
+            "nombre": "ING. MECATRONICA"
+        },
+        {
+            "nombre": "ING. MECATRONICO"
+        },
+        {
+            "nombre": "ING. METALURGICA"
+        },
+        {
+            "nombre": "ING. MULTIMEDIA"
+        },
+        {
+            "nombre": "ING. NAVAL"
+        },
+        {
+            "nombre": "ING. OCEANOGRAFICA"
+        },
+        {
+            "nombre": "ING. PESQUERA"
+        },
+        {
+            "nombre": "ING. PETROQUIMICA"
+        },
+        {
+            "nombre": "ING. QUIMICA"
+        },
+        {
+            "nombre": "ING. SANITARIA"
+        },
+        {
+            "nombre": "ING. SANITARIA Y AMBIENTAL"
+        },
+        {
+            "nombre": "ING. TELEMATICA"
+        },
+        {
+            "nombre": "ING. TEXTIL"
+        },
+        {
+            "nombre": "ING. TOPOGRAFICA"
+        },
+        {
+            "nombre": "ING. TOPOGRAFICA Y GEOMATICA"
+        },
+        {
+            "nombre": "ING. URBANA"
+        },
+        {
+            "nombre": "INGENIIERIA DE SOFTWARE"
+        },
+        {
+            "nombre": "INSTRUMENTACION QUIRURGICA"
+        },
+        {
+            "nombre": "INTERPRETACION MUSICAL"
+        },
+        {
+            "nombre": "INVESTIGACION CRIMINAL"
+        },
+        {
+            "nombre": "JURISPRUDENCIA"
+        },
+        {
+            "nombre": "LENGUAS MODERNAS"
+        },
+        {
+            "nombre": "LENGUAS MODERNAS Y CULTURA"
+        },
+        {
+            "nombre": "LENGUAS Y CULTURA"
+        },
+        {
+            "nombre": "LIC. EDUCACION INFANTIL"
+        },
+        {
+            "nombre": "LIC. EN ARTE DRAMATICO"
+        },
+        {
+            "nombre": "LIC. EN ARTES"
+        },
+        {
+            "nombre": "LIC. EN ARTES ESCENICAS"
+        },
+        {
+            "nombre": "LIC. EN ARTES PLASTICAS"
+        },
+        {
+            "nombre": "LIC. EN ARTES VISUALES"
+        },
+        {
+            "nombre": "LIC. EN BILING\u00dcISMO EN ESPA\u00d1OL E INGLES"
+        },
+        {
+            "nombre": "LIC. EN BILING\u00dcISMO EN INGLES"
+        },
+        {
+            "nombre": "LIC. EN BILING\u00dcISMO EN LA ENSE\u00d1ANZA DEL INGLES"
+        },
+        {
+            "nombre": "LIC. EN BIOLOGIA"
+        },
+        {
+            "nombre": "LIC. EN BIOLOGIA Y QUIMICA"
+        },
+        {
+            "nombre": "LIC. EN CIENCIAS NATURALES"
+        },
+        {
+            "nombre": "LIC. EN CIENCIAS NATURALES Y EDUCACION AMBIENTAL"
+        },
+        {
+            "nombre": "LIC. EN CIENCIAS SOCIALES"
+        },
+        {
+            "nombre": "LIC. EN CIENCIAS SOCIALES Y DESARROLLO LOCAL"
+        },
+        {
+            "nombre": "LIC. EN DANZA"
+        },
+        {
+            "nombre": "LIC. EN DEPORTE"
+        },
+        {
+            "nombre": "LIC. EN DISE\u00d1O TECNOLOGICO"
+        },
+        {
+            "nombre": "LIC. EN ED. ARTES PLASTICAS"
+        },
+        {
+            "nombre": "LIC. EN ED. ARTISTICA"
+        },
+        {
+            "nombre": "LIC. EN ED. ARTISTICA Y ARTES ESCENICAS"
+        },
+        {
+            "nombre": "LIC. EN ED. ARTISTICA Y CULTURAL"
+        },
+        {
+            "nombre": "LIC. EN ED. BASICA EN EDUCACION ARTISTICA"
+        },
+        {
+            "nombre": "LIC. EN ED. BASICA EN HUMANIDADES Y LENGUA CASTELLANA"
+        },
+        {
+            "nombre": "LIC. EN ED. BASICA EN MATEMATICAS"
+        },
+        {
+            "nombre": "LIC. EN ED. BASICA PRIMARIA"
+        },
+        {
+            "nombre": "LIC. EN ED. BASICA PRIMARIA EN INGLES Y EN FRANCES"
+        },
+        {
+            "nombre": "LIC. EN ED. BILINGUE"
+        },
+        {
+            "nombre": "LIC. EN ED. BILING\u00dcE- ESPA\u00d1OL E INGLES"
+        },
+        {
+            "nombre": "LIC. EN ED. CAMPESINA Y RURAL"
+        },
+        {
+            "nombre": "LIC. EN ED. COMUNITARIA"
+        },
+        {
+            "nombre": "LIC. EN ED. EN CIENCIAS SOCIALES Y AMBIENTALES"
+        },
+        {
+            "nombre": "LIC. EN ED. ESPECIAL"
+        },
+        {
+            "nombre": "LIC. EN ED. FISICA"
+        },
+        {
+            "nombre": "LIC. EN ED. INFANTIL"
+        },
+        {
+            "nombre": "LIC. EN ED. PARA LA PRIMERA INFANCIA"
+        },
+        {
+            "nombre": "LIC. EN ED. POPULAR"
+        },
+        {
+            "nombre": "LIC. EN ED. PREESCOLAR"
+        },
+        {
+            "nombre": "LIC. EN ED. RELIGIOSA"
+        },
+        {
+            "nombre": "LIC. EN ELECTRONICA"
+        },
+        {
+            "nombre": "LIC. EN ESPA\u00d1OL E INGLES"
+        },
+        {
+            "nombre": "LIC. EN ESPA\u00d1OL Y FILOLOGIA"
+        },
+        {
+            "nombre": "LIC. EN ESPA\u00d1OL Y LENGUAS EXTRANJERAS"
+        },
+        {
+            "nombre": "LIC. EN ETNOEDUCACION"
+        },
+        {
+            "nombre": "LIC. EN ETNOEDUCACION E INTERCULTURALIDAD"
+        },
+        {
+            "nombre": "LIC. EN ETNOEDUCACION Y DESARROLLO COMUNITARIO"
+        },
+        {
+            "nombre": "LIC. EN FILOSOFIA"
+        },
+        {
+            "nombre": "LIC. EN FILOSOFIA Y LETRAS"
+        },
+        {
+            "nombre": "LIC. EN FISICA"
+        },
+        {
+            "nombre": "LIC. EN HISTORIA"
+        },
+        {
+            "nombre": "LIC. EN HUMANIDADES LENGUA CASTELLANA E INGLES"
+        },
+        {
+            "nombre": "LIC. EN HUMANIDADES Y LENGUA CASTELLANA"
+        },
+        {
+            "nombre": "LIC. EN INFORMATICA"
+        },
+        {
+            "nombre": "LIC. EN INGLES-ESPA\u00d1OL"
+        },
+        {
+            "nombre": "LIC. EN LENGUA CASTELLANA E INGLES"
+        },
+        {
+            "nombre": "LIC. EN LENGUA CASTELLANA Y LITERATURA"
+        },
+        {
+            "nombre": "LIC. EN LENGUA EXTRANJERA INGLES"
+        },
+        {
+            "nombre": "LIC. EN LENGUAS EXTRANJERAS"
+        },
+        {
+            "nombre": "LIC. EN LENGUAS MODERNAS"
+        },
+        {
+            "nombre": "LIC. EN LINGUISTICA Y LITERATURA"
+        },
+        {
+            "nombre": "LIC. EN LINGUISTICA Y SEMIOTICA"
+        },
+        {
+            "nombre": "LIC. EN LITERATURA"
+        },
+        {
+            "nombre": "LIC. EN LITERATURA Y LENGUA CASTELLANA"
+        },
+        {
+            "nombre": "LIC. EN MATEMATICAS"
+        },
+        {
+            "nombre": "LIC. EN MATEMATICAS Y COMPUTACION"
+        },
+        {
+            "nombre": "LIC. EN MATEMATICAS Y FISICA"
+        },
+        {
+            "nombre": "LIC. EN MUSICA"
+        },
+        {
+            "nombre": "LIC. EN PEDAG. DE ARTES Y SABERES ANCESTRALES"
+        },
+        {
+            "nombre": "LIC. EN PEDAG. DE MADRE TIERRA"
+        },
+        {
+            "nombre": "LIC. EN PEDAG. DE PRIMERA INFANCIA"
+        },
+        {
+            "nombre": "LIC. EN PEDAG. INFANTIL"
+        },
+        {
+            "nombre": "LIC. EN PEDAG. PARA LA REVITALIZACION DE LENGUAS ORIGINARIAS"
+        },
+        {
+            "nombre": "LIC. EN PEDAG.S COMUNITARIAS"
+        },
+        {
+            "nombre": "LIC. EN PSICOPEDAG. EN ASESORIA EDUCATIVA"
+        },
+        {
+            "nombre": "LIC. EN QUIMICA"
+        },
+        {
+            "nombre": "LIC. EN RECREACION"
+        },
+        {
+            "nombre": "LIC. EN TEATRO"
+        },
+        {
+            "nombre": "LIC. EN TECNOLOGIA"
+        },
+        {
+            "nombre": "LIC. EN TEOLOGIA"
+        },
+        {
+            "nombre": "LIC. MUSICA"
+        },
+        {
+            "nombre": "LINGUISTICA"
+        },
+        {
+            "nombre": "LINGUISTICA Y LITERATURA"
+        },
+        {
+            "nombre": "LITERATURA"
+        },
+        {
+            "nombre": "LOGISTICA EMPRESARIAL"
+        },
+        {
+            "nombre": "LOGISTICA Y MERCADEO ORGANIZACIONAL"
+        },
+        {
+            "nombre": "MAESTRO EN MUSICA"
+        },
+        {
+            "nombre": "MARKETING"
+        },
+        {
+            "nombre": "MARKETING DIGITAL Y COMUNICACION ESTRATEGICA"
+        },
+        {
+            "nombre": "MARKETING Y LOGISTICA"
+        },
+        {
+            "nombre": "MARKETING Y NEG. DIGITALES"
+        },
+        {
+            "nombre": "MARKETING Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "MATEMATICA APLICADA"
+        },
+        {
+            "nombre": "MATEMATICAS"
+        },
+        {
+            "nombre": "MATEMATICAS APLICADAS"
+        },
+        {
+            "nombre": "MATEMATICAS APLICADAS Y CIENCIAS DE COMPUTACION"
+        },
+        {
+            "nombre": "MATEMATICAS EN ESTADISTICA"
+        },
+        {
+            "nombre": "MATEMATICAS Y CIENCIAS DE COMPUTACION"
+        },
+        {
+            "nombre": "MEDICINA"
+        },
+        {
+            "nombre": "MEDICINA VETERINARIA"
+        },
+        {
+            "nombre": "MEDICINA VETERINARIA Y ZOOTECNIA"
+        },
+        {
+            "nombre": "MERCADEO"
+        },
+        {
+            "nombre": "MERCADEO INTERNACIONAL Y PUBLICIDAD"
+        },
+        {
+            "nombre": "MERCADEO NACIONAL E INTERNACIONAL"
+        },
+        {
+            "nombre": "MERCADEO Y ESTRATEGIA COMERCIAL"
+        },
+        {
+            "nombre": "MERCADEO Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "MERCADEO Y PUBLICIDAD"
+        },
+        {
+            "nombre": "MERCADEO Y VENTAS"
+        },
+        {
+            "nombre": "MERCADOLOGIA"
+        },
+        {
+            "nombre": "MICROBIOLOGIA"
+        },
+        {
+            "nombre": "MICROBIOLOGIA INDUSTRIAL"
+        },
+        {
+            "nombre": "MICROBIOLOGIA INDUSTRIAL Y AMBIENTAL"
+        },
+        {
+            "nombre": "MICROBIOLOGIA Y BIOANALISIS"
+        },
+        {
+            "nombre": "MODELADO Y SIMULACION COMPUTACIONAL"
+        },
+        {
+            "nombre": "MUSICA"
+        },
+        {
+            "nombre": "MUSICA- CANTO"
+        },
+        {
+            "nombre": "MUSICA INSTRUMENTAL"
+        },
+        {
+            "nombre": "NARRATIVAS DIGITALES"
+        },
+        {
+            "nombre": "NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "NEG. INTERNACIONALES Y MERCADEO"
+        },
+        {
+            "nombre": "NEG. Y FINANZAS INTERNACIONALES"
+        },
+        {
+            "nombre": "NEG. Y RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "NUTRICION Y DIETETICA"
+        },
+        {
+            "nombre": "OCEANOGRAFIA"
+        },
+        {
+            "nombre": "OCEANOGRAFIA FISICA"
+        },
+        {
+            "nombre": "ODONTOLOGIA"
+        },
+        {
+            "nombre": "OPTOMETRIA"
+        },
+        {
+            "nombre": "PEDAG."
+        },
+        {
+            "nombre": "PERIODISMO"
+        },
+        {
+            "nombre": "PERIODISMO Y OPINION PUBLICA"
+        },
+        {
+            "nombre": "PLANEACION Y DESARROLLO SOCIAL"
+        },
+        {
+            "nombre": "POLITICA Y RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "PRFSNL DE DISE\u00d1O DE MODAS"
+        },
+        {
+            "nombre": "PRFSNL EN ACTIVIDAD FISICA Y DEPORTE"
+        },
+        {
+            "nombre": "PRFSNL EN ADMINISTRACION DE EMPRESAS"
+        },
+        {
+            "nombre": "PRFSNL EN AGROINDUSTRIA"
+        },
+        {
+            "nombre": "PRFSNL EN AGRONEG."
+        },
+        {
+            "nombre": "PRFSNL EN CIENCIAS DEL DEPORTE"
+        },
+        {
+            "nombre": "PRFSNL EN CIENCIAS DEL DEPORTE Y LA EDUCACION FISICA"
+        },
+        {
+            "nombre": "PRFSNL EN COMUNICACION SOCIAL"
+        },
+        {
+            "nombre": "PRFSNL EN CONTADURIA PUBLICA"
+        },
+        {
+            "nombre": "PRFSNL EN CRIMINALISTICA"
+        },
+        {
+            "nombre": "PRFSNL EN DANZA Y PERFORMANCE"
+        },
+        {
+            "nombre": "PRFSNL EN DEPORTE"
+        },
+        {
+            "nombre": "PRFSNL EN DIRECCION Y PRODUCCION DE RADIO Y TELEVISION"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O DE ALTA COSTURA"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O DE ESPACIOS"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O DE INTERIORES"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O DE MODAS"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O DE VESTUARIO"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O GRAFICO"
+        },
+        {
+            "nombre": "PRFSNL EN DISE\u00d1O INDUSTRIAL"
+        },
+        {
+            "nombre": "PRFSNL EN ENTRENAMIENTO DEPORTIVO"
+        },
+        {
+            "nombre": "PRFSNL EN FILOSOFIA"
+        },
+        {
+            "nombre": "PRFSNL EN GASTRONOMIA"
+        },
+        {
+            "nombre": "PRFSNL EN GASTRONOMIA Y ALTA COCINA"
+        },
+        {
+            "nombre": "PRFSNL EN GASTRONOMIA Y CULINARIA"
+        },
+        {
+            "nombre": "PRFSNL EN GESTION DEL DISE\u00d1O"
+        },
+        {
+            "nombre": "PRFSNL EN LENGUAS MODERNAS"
+        },
+        {
+            "nombre": "PRFSNL EN MARKETING INTERNACIONAL"
+        },
+        {
+            "nombre": "PRFSNL EN MARKETING Y NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "PRFSNL EN MEDIOS AUDIOVISUALES"
+        },
+        {
+            "nombre": "PRFSNL EN MERCADEO EMPRESARIAL"
+        },
+        {
+            "nombre": "PRFSNL EN NEG. INTERNACIONALES"
+        },
+        {
+            "nombre": "PRFSNL EN PSICOLOGIA"
+        },
+        {
+            "nombre": "PRFSNL EN PUBLICIDAD"
+        },
+        {
+            "nombre": "PRFSNL EN TEOLOGIA"
+        },
+        {
+            "nombre": "PRFSNL EN TRABAJO SOCIAL"
+        },
+        {
+            "nombre": "PRFSNL EN TURISMO Y GASTRONOMIA"
+        },
+        {
+            "nombre": "PRFSNL SEGURIDAD Y SALUD EN EL TRABAJO"
+        },
+        {
+            "nombre": "PRFSNL UNIVERSITARIO EN DISE\u00d1O TEXTIL PARA LA INDUSTRIA"
+        },
+        {
+            "nombre": "PRFSNL UNIVERSITARIO EN FOTOGRAFIA PARA MEDIOS"
+        },
+        {
+            "nombre": "PRFSNL UNIVESITARIO EN DISE\u00d1O AUDIOVISUAL"
+        },
+        {
+            "nombre": "PRIMERA INFANCIA"
+        },
+        {
+            "nombre": "PROGRAMA PRFSNL UNIVERSITARIO EN LENGUAS EXTRANJERAS"
+        },
+        {
+            "nombre": "PSICOLOGIA"
+        },
+        {
+            "nombre": "PUBLICIDAD"
+        },
+        {
+            "nombre": "PUBLICIDAD INTERNACIONAL"
+        },
+        {
+            "nombre": "PUBLICIDAD Y MARKETING DIGITAL"
+        },
+        {
+            "nombre": "PUBLICIDAD Y MERCADEO"
+        },
+        {
+            "nombre": "QUIMICA"
+        },
+        {
+            "nombre": "QUIMICA AMBIENTAL"
+        },
+        {
+            "nombre": "QUIMICA FARMACEUTICA"
+        },
+        {
+            "nombre": "QUIMICA INDUSTRIAL"
+        },
+        {
+            "nombre": "QUIMICA Y FARMACIA"
+        },
+        {
+            "nombre": "REALIZACION EN ANIMACION"
+        },
+        {
+            "nombre": "REALIZACION Y PRODUCCION MUSICAL"
+        },
+        {
+            "nombre": "RECREACION"
+        },
+        {
+            "nombre": "RELACIONES ECONOMICAS INTERNACIONALES"
+        },
+        {
+            "nombre": "RELACIONES INTERNACIONALES"
+        },
+        {
+            "nombre": "RELACIONES INTERNACIONALES Y ESTUDIOS POLITICOS"
+        },
+        {
+            "nombre": "REVITALIZACION DE MADRE TIERRA"
+        },
+        {
+            "nombre": "SEGURIDAD Y SALUD EN EL TRABAJO"
+        },
+        {
+            "nombre": "SISTEMAS DE INFORMACION BIBLIOTECOLOGIA Y ARCHIVISTICA"
+        },
+        {
+            "nombre": "SOCIOLOGIA"
+        },
+        {
+            "nombre": "TEATRO MUSICAL"
+        },
+        {
+            "nombre": "TEOLOGIA"
+        },
+        {
+            "nombre": "TERAPIA CARDIORRESPIRATORIA"
+        },
+        {
+            "nombre": "TERAPIA OCUPACIONAL"
+        },
+        {
+            "nombre": "TERAPIA RESPIRATORIA"
+        },
+        {
+            "nombre": "TRABAJO SOCIAL"
+        },
+        {
+            "nombre": "TRADUCCION INGLES-FRANCES-ESPA\u00d1OL"
+        },
+        {
+            "nombre": "TURISMO"
+        },
+        {
+            "nombre": "URBANISMO"
+        },
+        {
+            "nombre": "ZOOTECNIA"
+        }
+    ]
+}

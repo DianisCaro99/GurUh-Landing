@@ -37,11 +37,11 @@
   <meta property="og:description" content="Visually Stunning Responsive HTML Template for Design Startups">
   <meta property="og:site_name" content="Collab">
   <meta property="fb:admins" content="132951670226590"> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" media="all" href="css/app.css">
-  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f307b5af88/UntitledProject/style-svg.css">
-  <script defer src="https://i.icomoon.io/public/temp/f307b5af88/UntitledProject/svgxuse.js"></script>
   <script src="https://kit.fontawesome.com/6bd538481a.js" crossorigin="anonymous"></script>
   <script>
     var viewportmeta = document.querySelector('meta[name="viewport"]');
@@ -434,35 +434,44 @@
           <div class="row mb-4 p-4">
             <div class="col-md-6">
               <div class="entry__field field">
-                <div class="field__label">Nombre(s)</div>
+                <div class="field__label">Nombre(s)<a class="invalid-feedback invalid-gurito hide invalid-name">Por
+                    favor
+                    ingresa un nombre.</a></div>
                 <div class="field__wrap">
-                  <input class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
+                  <input id="nombre" class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Apellidos</div>
+                <div class="field__label">Apellidos<a class="invalid-feedback invalid-gurito hide invalid-lastname">Por
+                    favor
+                    ingresa un apellido.</a></div>
                 <div class="field__wrap">
-                  <input class="field__input" type="text" name="apellidos" place)holder="Apellidos">
+                  <input id="apellido" class="field__input" type="text" name="apellidos" place)holder="Apellidos">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Número telefónico</div>
+                <div class="field__label">Número telefónico<a
+                    class="invalid-feedback invalid-gurito hide invalid-phone">Por favor
+                    ingresa un número telefónico.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
-                    class="field__input" type="text" name="numTelefono" placeholder="Número de teléfono">
+                    id="numTelefono" class="field__input" type="text" name="numTelefono"
+                    placeholder="Número de teléfono">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Email</div>
+                <div class="field__label">Email<a class="invalid-feedback invalid-gurito hide invalid-email">Por favor
+                    ingresa un correo válido.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <input class="field__input" type="email" name="email" placeholder="Email">
+                  <input id="correo" class="field__input" type="email" name="email" placeholder="Email">
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="entry__field field">
-                <div class="field__label">País</div>
+                <div class="field__label">País<a class="invalid-feedback invalid-gurito hide invalid-country">Por favor
+                    selecciona tu país.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
                   <select id="pais" name="country" class="field__input" title="Selecciona tu país de residencia"
@@ -473,17 +482,19 @@
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Carrera(s)</div>
+                <div class="field__label">Carrera(s)<a class="invalid-feedback invalid-gurito hide invalid-degree">Por
+                    favor selecciona tu/tus carreras de interés.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <select id="carrera" name="carrera" class="field__input" data-size="20" multiple
-                    title="Selecciona tu/tus carreras de interés" data-icon-base="lnr"
-                    data-tick-icon="lnr lnr-checkmark-circle" data-live-search="true">
+                  <select id="carrera" name="carrera" class="field__input selectpicker" data-size="20" multiple
+                    title="Selecciona tu/tus carreras de interés" data-live-search="true">
                   </select>
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">¿Cómo nos conociste?</div>
+                <div class="field__label">¿Cómo nos conociste?<a
+                    class="invalid-feedback invalid-gurito hide invalid-canal">Por
+                    favor selecciona una opción</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
                   <select id="canal" name="state" class="field__input" title="Selecciona una opción" data-size="20">
@@ -505,21 +516,23 @@
           <div class="package__btns d-block justify-content-center text-center">
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Acepto terminos y condiciones
+                <input id="terminos" onclick="clickTerms()" class="form-check-input check" type="checkbox"
+                  id="gridCheck">
+                <label class="form-check-label labelTermino" for="terminos">
+                  Acepto terminos y condiciones<div class="invalid-feedback small hide invalid-terms">Para registrarte
+                    debes leer y aceptar los términos y condiciones.</div>
                 </label>
               </div>
             </div>
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
+                <input id="agrupal" class="form-check-input check" type="checkbox">
+                <label class="form-check-label labelTermino" for="agrupal">
                   No me molesta compartir mi asesoría
                 </label>
               </div>
             </div>
-            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+            <a class="package__btn btn btn_purple" onclick="validateGuritoForm()" tabindex="0">Regístrate</a>
           </div>
         </div>
       </div>
@@ -538,48 +551,113 @@
           <div class="row mb-4 p-4">
             <div class="col-md-6">
               <div class="entry__field field">
-                <div class="field__label">Nombre(s)</div>
+                <div class="field__label">Nombre(s)<a class="invalid-feedback invalid-gurito hide invalid-name">Por
+                    favor
+                    ingresa un nombre.</a></div>
                 <div class="field__wrap">
-                  <input class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
+                  <input id="nombreG" class="field__input" type="text" name="nombre" place)holder="Nombre(s)">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Apellidos</div>
+                <div class="field__label">Apellidos<a class="invalid-feedback invalid-gurito hide invalid-lastname">Por
+                    favor
+                    ingresa un apellido.</a></div>
                 <div class="field__wrap">
-                  <input class="field__input" type="text" name="apellidos" place)holder="Apellidos">
+                  <input id="apellidoG" class="field__input" type="text" name="apellidos" place)holder="Apellidos">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Número telefónico</div>
+                <div class="field__label">Número telefónico<a
+                    class="invalid-feedback invalid-gurito hide invalid-phone">Por favor
+                    ingresa un número telefónico.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input
-                    class="field__input" type="text" name="numTelefono" placeholder="Número de teléfono">
+                    id="numTelefonoG" class="field__input" type="text" name="numTelefono"
+                    placeholder="Número de teléfono">
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">Email institucional</div>
+                <div class="field__label">Email institucional<a
+                    class="invalid-feedback invalid-gurito hide invalid-email">Por favor
+                    ingresa un correo válido.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <input class="field__input" type="email" name="email" placeholder="Email institucional">
+                  <input id="correoG" class="field__input" type="email" name="email" placeholder="Email institucional">
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="entry__field field">
-                <div class="field__label">Carrera(s)</div>
+                <div class="field__label">Carrera(s)<a class="invalid-feedback invalid-guruh hide invalid-degree">Por
+                    favor selecciona tu/tus carreras.</a>
+                </div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <select id="carrera" name="carrera" class="field__input" data-size="20" multiple
-                    title="Selecciona tu/tus carreras de interés" data-icon-base="lnr"
-                    data-tick-icon="lnr lnr-checkmark-circle" data-live-search="true">
+                  <select id="carrera2" name="carrera2" class="field__input selectpicker" data-size="20" multiple
+                    title="Selecciona tu/tus carreras de interés" data-live-search="true">
                   </select>
                 </div>
               </div>
               <div class="entry__field field">
-                <div class="field__label">¿Cómo nos conociste?</div>
+                <div class="field__label">Semestre<a class="invalid-feedback invalid-guruh hide invalid-semester">Por
+                    favor selecciona tu semestre actual.</a></div>
                 <div class="field__wrap">
                   <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <select id="canal" name="state" class="field__input" title="Selecciona una opción" data-size="20">
+                  <select id="semestre" name="state" class="form-control selectpicker" title="Selecciona tu semestre"
+                    data-size="20" tabindex="-98">
+                    <option disabled selected class="bs-title-option" value="">Selecciona tu semestre</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>+10</option>
+                    <option>Graduado</option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Universidad<a
+                    class="invalid-feedback invalid-guruh hide invalid-university">Por
+                    favor selecciona tu universidad.</a></div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="universidad" name="universidad" class="field__input" title="Selecciona tu universidad"
+                    data-size="20" data-live-search="true">
+                    <option disabled selected class="bs-title-option" value="">Selecciona tu universidad</option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">Gusto por la carrera<a
+                    class="invalid-feedback invalid-guruh hide invalid-liking">Por
+                    favor selecciona tu gusto por la carrera.</a></div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="gusto" name="state" class="field__input" title="¿De 1 a 5 que tanto te gusta tu carrera?"
+                    data-size="20">
+                    <option disabled selected class="bs-title-option" value="">Selecciona tu gusto por carrera</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="entry__field field">
+                <div class="field__label">¿Cómo nos conociste?<a
+                    class="invalid-feedback invalid-guruh hide invalid-canal">Por
+                    favor selecciona una opción</a></div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
+                  <select id="canal2" name="state" class="field__input" title="Selecciona una opción" data-size="20">
+                    <option disabled selected class="bs-title-option" value="">¿Cómo nos conociste?</option>
                     <option>Facebook</option>
                     <option>Instagram</option>
                     <option>TikTok</option>
@@ -593,54 +671,41 @@
                   </select>
                 </div>
               </div>
-              <div class="entry__field field">
-                <div class="field__label">Universidad</div>
-                <div class="field__wrap">
-                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <select id="pais" name="country" class="field__input" title="Selecciona tu país de residencia"
-                    data-size="20" data-live-search="true">
-                    <option>Colombia</option>
-                    <option>Suiza</option>
-                  </select>
-                </div>
-              </div>
-              <div class="entry__field field">
-                <div class="field__label">Gusto por la carrera</div>
-                <div class="field__wrap">
-                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                  <select id="gusto" name="state" class="field__input" title="¿De 1 a 5 que tanto te gusta tu carrera?"
-                    data-size="20">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                  </select>
-                </div>
-              </div>
             </div>
           </div>
           <div class="package__btns d-block justify-content-center text-center">
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
+                <input class="form-check-input" type="checkbox" id="terminosG">
+                <label class="form-check-label labelTermino" for="terminosG">
                   Acepto terminos y condiciones
+                  <div class="invalid-feedback small hide invalid-terms">Para registrarte
+                    debes leer y aceptar los términos y condiciones.</div>
                 </label>
               </div>
             </div>
-            <a class="package__btn btn btn_purple" href="login.html" tabindex="0">Regístrate</a>
+            <a class="package__btn btn btn_purple" onclick="validateGuruhForm()" tabindex="0">Regístrate</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/form-validation.js"></script>
   <script src="js/modal.js"></script>
 </body>
 
