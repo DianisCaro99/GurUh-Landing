@@ -76,8 +76,7 @@ function validateGuritoForm() {
   else document.querySelector("#registerGuritoFormModal .invalid-canal").classList.add("hide");
 
   clickTerms();
-
-  console.log(document.querySelectorAll("#registerGuritoFormModal .invalid-feedback.hide"))
+  
   if (document.querySelectorAll("#registerGuritoFormModal .invalid-feedback.hide").length == 8 && document.querySelector("#registerGuritoFormModal #terminos").checked) {
     document.querySelector(".sendGuritoButton").classList.add("invisible");
     const data = {
@@ -100,12 +99,12 @@ function validateGuritoForm() {
       },
     })
       .then((resp) => {
-        document.querySelector("#registerGuritoFormModal").classList.add("hide");
+        document.querySelector(".form-gurito").classList.add("hide");
         document.querySelector(".thanks-gurito").classList.remove("hide");
       })
       .catch((err) => {
         console.log(err);
-        document.querySelector("#registerGuritoFormModal").classList.add("hide");
+        document.querySelector(".form-gurito").classList.add("hide");
         document.querySelector(".error-gurito").classList.remove("hide");
       });
   }
@@ -166,13 +165,13 @@ function validateGuruhForm() {
       },
     })
       .then((resp) => {
-        document.querySelector("#registerGuruhFormModal").classList.add("hide");
+        document.querySelector(".form-guruh").classList.add("hide");
         document.querySelector(".thanks-guruh").classList.remove("hide");
 
       })
       .catch((err) => {
         console.log(err);
-        document.querySelector("#registerGuruhFormModal").classList.add("hide");
+        document.querySelector(".form-guruh").classList.add("hide");
         document.querySelector(".error-guruh").classList.remove("hide");
       });
   }
