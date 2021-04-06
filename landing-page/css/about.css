@@ -2676,7 +2676,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 .main {
   position: relative;
   z-index: 2;
-  padding: 220px 0 100px;
+  padding: 35vh 0 10vh;
 }
 
 .main__wrap {
@@ -3468,8 +3468,9 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .layouts {
+  z-index:3;
   position: relative;
-  padding: 231px 0 165px;
+  padding: 200px 0 165px;
   background: #fff;
 }
 
@@ -4347,7 +4348,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .work__hand:nth-child(2) {
   right: calc(50% - 813px);
-  bottom: -600px;
+  bottom: -500px;
   width: 524px;
 }
 
@@ -6255,20 +6256,22 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 100%;
 }
 
-.accord__body {
-  display: none;
-  padding: 60px 55px 92px 302px;
-  background-repeat: no-repeat;
-  background-position: 45px 60%;
-  background-size: auto 260px;
-}
 
 .accord__body1 {
     display: none;
     padding: 60px 55px 92px 502px;
-    background-repeat: no-repeat;
-    background-position: 45px 60%;
-    background-size: auto 260px;
+
+  }
+
+  .accord__image {
+    position:absolute;
+    height: 40vh;
+    width: 30vw;
+    left: 16vw;
+  }
+  .accord__image img {
+    width: 100%;
+    height: 100%;
   }
 
 .accord__desc li {
@@ -8873,7 +8876,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     font-size: 16px;
   }
   .main {
-    padding: 170px 0 35px;
+    padding: 20vh 0 9vh;
   }
   .main__wrap {
     max-width: 100%;
@@ -8951,8 +8954,8 @@ body:not(.touch-device) .header__item:hover .header__body {
     display: none;
   }
   .main__circle:nth-child(3) {
-    top: 309px;
-    left: 62%;
+    top: 299px;
+    left: 67%;
     width: 32px;
     height: 32px;
   }
@@ -8964,8 +8967,8 @@ body:not(.touch-device) .header__item:hover .header__body {
     height: 24px;
   }
   .main__circle:nth-child(5) {
-    right: -90px;
-    top: 740px;
+    left: calc(50% - 80vw);
+    top: 400px;
     width: 180px;
     height: 180px;
   }
@@ -9799,8 +9802,18 @@ body:not(.touch-device) .header__item:hover .header__body {
   .accord__item.active .accord__head {
     padding: 16px 60px 16px 24px;
   }
-  .accord__body {
+  .accord__body1 {
     padding: 32px 20px;
+  }
+  .accord__image {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 6px;
+    position: inherit;
+  }
+  .accord__image img {
+    width: 100%;
+    height: 100%;
   }
   .partners {
     padding: 80px 0 52px;
@@ -10387,7 +10400,6 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 /* 
 Nevas cosas
-
  */
 
  .cards-1 {
