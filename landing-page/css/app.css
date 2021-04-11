@@ -10390,7 +10390,6 @@ body:not(.touch-device) .header__item:hover .header__body {
 /* Form styles */
 .invalid-feedback {
   color: red;
-  text-align: left;
   margin-left: 3rem;
   display: block !important;
   text-transform: initial;
@@ -10401,4 +10400,8 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .hide {
   display: none !important;
+}
+
+.select-no-padding {
+  padding: 0 0 0 72px !important;
 }
