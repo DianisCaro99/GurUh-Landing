@@ -2068,7 +2068,7 @@ body.no-scroll {
 .btn_purple {
   background: #FF914D;
   color: #fff;
-  letter-spacing: 1px;
+  line-height: 3.5;
 }
 
 .btn_pink {
@@ -10294,6 +10294,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   padding: 1.2rem;
 }
 .modal__content {
+  border-radius: 20px;
   will-change: transform, opacity;
   position: relative;
   padding: 2.4rem;
@@ -10352,6 +10353,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   background: #e5d3d6;
 }
 #modal__temp {
+  border-radius: 5px;
   will-change: transform, opacity;
   position: absolute;
   top: 0;
