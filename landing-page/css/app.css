@@ -2267,6 +2267,7 @@ body.no-scroll {
 
 body:not(.touch-device) .header__item[href]:hover {
   color: #292930;
+  text-decoration:none
 }
 
 body:not(.touch-device) .header__item[href]:hover:before {
