@@ -4569,7 +4569,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .teams .slick-arrow:hover {
-  background: #5956E9;
+  background: #F6A867;
 }
 
 .teams .slick-prev {
@@ -6541,29 +6541,9 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .quality__col:nth-child(2) .quality__icon {
-  top: -11px;
-  left: -71px;
-  width: 255px;
-}
-
-.quality__col:nth-child(2) .quality__link {
-  color: #5956E9;
-}
-
-.quality__col:nth-child(2) .quality__link .icon {
-  fill: #5956E9;
-}
-
-.quality__col:nth-child(3) .quality__icon {
-  top: 0;
-  left: -33px;
-  width: 202px;
-}
-
-.quality__col:nth-child(4) .quality__icon {
-  top: 0;
-  left: -162px;
-  width: 348px;
+  top: 3px;
+  left: -18px;
+  width: 295px;
 }
 
 .quality__item {
@@ -9869,27 +9849,14 @@ body:not(.touch-device) .header__item:hover .header__body {
     -ms-transform: translateX(-27%);
     transform: translateX(-27%);
   }
+
   .quality__col:nth-child(2) .quality__icon {
-    top: 0;
     left: 50%;
-    -webkit-transform: translateX(-54%);
-    -ms-transform: translateX(-54%);
-    transform: translateX(-54%);
-    width: 235px;
+    -webkit-transform: translateX(-27%);
+    -ms-transform: translateX(-27%);
+    transform: translateX(-27%);
   }
-  .quality__col:nth-child(3) .quality__icon {
-    left: 50%;
-    -webkit-transform: translateX(-46%);
-    -ms-transform: translateX(-46%);
-    transform: translateX(-46%);
-    width: 180px;
-  }
-  .quality__col:nth-child(4) .quality__icon {
-    left: 50%;
-    -webkit-transform: translateX(-68%);
-    -ms-transform: translateX(-68%);
-    transform: translateX(-68%);
-  }
+  
   .quality__col:not(:last-child) {
     margin-bottom: 56px;
   }
