@@ -4149,7 +4149,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .work__title .title__color {
-  color: #2C365E;
+  color: #FC3D5F;
 }
 
 .work__details {
@@ -4175,7 +4175,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   margin-left: auto;
   padding: 4rem 5rem;
   border-radius: 50%;
-  background: #2C365E;
+  background: #FC3D5F;
 }
 
 .work__icon {
@@ -4289,7 +4289,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: calc(50% - 179px);
   width: 204px;
   height: 204px;
-  background: #2C365E;
+  background: #FC3D5F;
 }
 
 .work__wave, .work__preview, .work__hand, .work__cursor {
