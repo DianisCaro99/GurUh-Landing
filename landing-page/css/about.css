@@ -3480,7 +3480,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .layouts__stage {
   margin-bottom: 24px;
-  color: #5956E9;
+  color: #d1646a;
 }
 
 .layouts__head {
@@ -3911,7 +3911,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .plan__info {
-  max-width: 380px;
+  max-width: 680px;
   margin: 0 auto 34px;
 }
 
@@ -8000,8 +8000,8 @@ body:not(.touch-device) .header__item:hover .header__body {
     right: -220px;
   }
   .work__preview {
-    right: calc(50% - 610px);
-    top: 20px;
+    right: calc(80% - 610px);
+    top: 160px;
   }
   .work__hand:first-child {
     left: calc(50% - 600px);
@@ -9344,7 +9344,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     height: 32px;
   }
   .work__preview {
-    right: calc(50% - 390px);
+    right: calc(60% - 390px);
     width: 800px;
   }
   .work__hand:first-child {
@@ -10745,9 +10745,18 @@ Nevas cosas
 }
 
 .above-heading {
-	color: #FF914D;
-	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+	color: #d1646a;
+	font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 	text-align: center;
 }
 
 /*fundamentals values end*/
+
+.center-ods{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
