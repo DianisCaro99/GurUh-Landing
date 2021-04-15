@@ -10408,6 +10408,7 @@ Nevas cosas
 	padding-top: 3.25rem;
 	padding-bottom: 3rem;
 	text-align: center;
+  -webkit-perspective: 1000px;
   perspective: 1000px;
 }
 
@@ -10454,7 +10455,9 @@ Nevas cosas
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: transform 300ms;
+  -webkit-transform: transform 300ms;
   transition-timing-function: linear;
+  -moz-transform:transform 300ms;
   -moz-backface-visibility: hidden;
   width: 100%;
   height: 100%;
