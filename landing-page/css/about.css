@@ -10452,8 +10452,10 @@ Nevas cosas
 
 .cards-1 .flip-card > div {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   transition: transform 300ms;
   transition-timing-function: linear;
+  -moz-backface-visibility: hidden;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -10465,20 +10467,26 @@ Nevas cosas
 
 .card-front {
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
 }
 
 .card-back {
   transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
   position: absolute;
   top: 0;
 }
 
 .flip-card:hover .card-front {
   transform: rotateY(-180deg);
+  -webkit-transform:rotateY(-180deg);
+  
 }
   
 .flip-card:hover .card-back {
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  
 }
 
 /* end of description */
