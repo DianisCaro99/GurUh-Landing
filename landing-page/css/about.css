@@ -6260,19 +6260,19 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .accord__body1 {
     display: none;
-    padding: 60px 55px 92px 502px;
+    padding: 60px 55px 92px 400px;
 
   }
 
   .accord__image {
     position:absolute;
-    height: 45vh;
-    width: 30vw;
-    left: 16vw;
+    height: 29vh;
+    width: 23vw;
+    left: 22vw;
   }
   .accord__image img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
 .accord__desc li {
@@ -8001,7 +8001,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     right: -220px;
   }
   .work__preview {
-    right: calc(80% - 610px);
+    right: calc(80% - 870px);
     top: 160px;
   }
   .work__hand:first-child {
@@ -8009,6 +8009,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     bottom: -161px;
     width: 500px;
   }
+  
   .work__hand:nth-child(2) {
     right: calc(50% - 600px);
     bottom: -340px;
@@ -10772,3 +10773,69 @@ Nevas cosas
   margin-right: auto;
   height: 100px;
 }
+
+/** QUEries para la trayectoria**/
+
+@media screen and (max-width:1440px) and (min-width:1439px){
+  .accord__body1 {
+    display: none;
+    padding: 60px 55px 92px 400px;
+
+  }
+
+  .accord__image {
+    position:absolute;
+    height: 29vh;
+    width: 28vw;
+    left: 14vw;
+  }
+  
+}
+
+@media screen and (max-width:1920px) and (min-width:1919px){
+
+  .accord__image {
+    position:absolute;
+    height: 27vh;
+    width: 20vw;
+    left: 24vw;
+  }
+
+  
+}
+
+@media screen and (max-width:1080px) and (min-width:1079px){
+  .accord__image {
+    position:absolute;
+    height: 41vh;
+    width: 36vw;
+    left: 9vw;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:767px){
+  .accord__body1{
+    padding-left: 330px;
+  }
+  .accord__image {
+    padding-top: 40px;
+    position:absolute;
+    height: 32vh;
+    width: 50vw;
+    left: 5vw;
+  }
+}
+
+@media only screen and (max-width:1024px) and (min-width:1023px){
+  .accord__body1{
+    padding-left: 410px;
+  }
+  .accord__image {
+    padding-top: 0;
+    position:absolute;
+    height: 26vh;
+    width: 45vw;
+    left: 4vw;
+  }
+}
+
