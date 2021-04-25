@@ -47,6 +47,8 @@ readTextFile("../data/uni.json", function (text) {
     univ.appendChild(op);
 
   }
-  document.querySelector(`#guritoForm`).style.cssText = 'backface-visibility: hidden; -webkit-backface-visibility:hidden;';
-  document.querySelector(`#guruhForm`).style.cssText = 'backface-visibility: hidden; -webkit-backface-visibility:hidden;';
+  var guritoForm = document.querySelector(`#guritoForm`);
+  var guruhForm = document.querySelector(`#guruhForm`);
+  guritoForm != null ? guritoForm.style.cssText = 'backface-visibility: hidden; -webkit-backface-visibility:hidden;' : null;
+  guruhForm != null ? guruhForm.style.cssText = 'backface-visibility: hidden; -webkit-backface-visibility:hidden;' : null;
 });
