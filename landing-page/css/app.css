@@ -10373,3 +10373,21 @@ body:not(.touch-device) .header__item:hover .header__body {
 .select-no-padding {
   padding: 0 0 0 72px !important;
 }
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100% !important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+  display: flex;
+}
+
+.filter-option-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.padding-close {
+  margin: 20px !important;
+  cursor: pointer;
+}
