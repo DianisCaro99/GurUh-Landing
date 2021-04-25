@@ -10839,3 +10839,15 @@ Nevas cosas
   }
 }
 
+@media only screen and (max-width:1370px) and (min-width:1360px){
+  .accord__body1{
+    padding-left: 500px;
+  }
+  .accord__image {
+    padding-top: 0;
+    position:absolute;
+    height: 20vh;
+    width: 34vw;
+    left: 12vw;
+  }
+}
