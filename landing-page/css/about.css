@@ -6272,7 +6272,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     position:absolute;
     height: 29vh;
     width: 23vw;
-    left: 22vw;
+    left: 18vw;
   }
   .accord__image img {
     width: 100%;
@@ -10780,7 +10780,7 @@ Nevas cosas
 
 /** QUEries para la trayectoria**/
 
-@media screen and (max-width:1440px) and (min-width:1439px){
+@media screen and (max-width:1440px) and (min-width:1400px){
   .accord__body1 {
     display: none;
     padding: 60px 55px 92px 400px;
@@ -10808,7 +10808,7 @@ Nevas cosas
   
 }
 
-@media screen and (max-width:1080px) and (min-width:1079px){
+@media screen and (max-width:1080px) and (min-width:1000px){
   .accord__image {
     position:absolute;
     height: 41vh;
@@ -10817,7 +10817,7 @@ Nevas cosas
   }
 }
 
-@media screen and (max-width:768px) and (min-width:767px){
+@media screen and (max-width:768px) and (min-width:700px){
   .accord__body1{
     padding-left: 330px;
   }
@@ -10830,7 +10830,7 @@ Nevas cosas
   }
 }
 
-@media only screen and (max-width:1024px) and (min-width:1023px){
+@media only screen and (max-width:1024px) and (min-width:1000px){
   .accord__body1{
     padding-left: 410px;
   }
@@ -10843,7 +10843,7 @@ Nevas cosas
   }
 }
 
-@media only screen and (max-width:1370px) and (min-width:1360px){
+@media only screen and (max-width:1370px) and (min-width:1300px){
   .accord__body1{
     padding-left: 500px;
   }

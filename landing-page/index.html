@@ -166,7 +166,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="design">
         <div class="design__center center">
           <br>
@@ -360,9 +360,7 @@
             <div class="footer__col"><a class="footer__logo" href="index.html#"><img class="footer__pic"
                   src="img/logo.svg" alt=""></a></div>
             <div class="footer__col js-footer-col">
-              <div class="footer__category js-footer-category">Compañía<svg class="icon icon-arrow-down">
-                  <use xlink:href="img/sprite.svg#icon-arrow-down"></use>
-                </svg></div>
+              <div class="footer__category js-footer-category">Compañía</div>
               <div class="footer__menu js-footer-menu">
                 <a class="footer__link" style="text-decoration: none;" href="index.html#">Solución</a>
                 <a class="footer__link" style="text-decoration: none;" href="index.html#">Funcionalidades</a>
@@ -371,9 +369,7 @@
               </div>
             </div>
             <div class="footer__col js-footer-col">
-              <div class="footer__category js-footer-category">Redes sociales<svg class="icon icon-arrow-down">
-                  <use xlink:href="img/sprite.svg#icon-arrow-down"></use>
-                </svg></div>
+              <div class="footer__category js-footer-category">Redes sociales</div>
               <div class="footer__menu js-footer-menu">
                 <a class="footer__link" style="text-decoration: none;"
                   href="https://www.instagram.com/guruhpage/?hl=es">
@@ -431,12 +427,19 @@
   </div>
 
   <!-- The registerGuritoFormModal Modal -->
-  <div class="modal fade" id="registerGuritoFormModal" tabindex="-1" aria-labelledby="registerGuritoFormModalLabel"
-    aria-hidden="true">
+  <div class="modal modal__bg fade" id="registerGuritoFormModal" tabindex="-1"
+    aria-labelledby="registerGuritoFormModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content">
         <div class="form-gurito">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <!-- modal close button -->
+          <a href="" class="modal__close demo-close registerGuritoFormModal">
+            <svg class="" viewBox="0 0 24 24">
+              <path
+                d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z" />
+              <path d="M0 0h24v24h-24z" fill="none" />
+            </svg>
+          </a>
           <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
             data-aos-delay="400">
             <h2 class="package__title title title_sm">Regístrate como Gurito</h2>
@@ -575,14 +578,21 @@
   </div>
 
   <!-- The registerGuruhFormModal Modal -->
-  <div class="modal fade" id="registerGuruhFormModal" tabindex="-1" aria-labelledby="registerGuruhFormModalLabel"
-    aria-hidden="true">
+  <div class="modal modal__bg fade" id="registerGuruhFormModal" tabindex="-1"
+    aria-labelledby="registerGuruhFormModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content">
         <div class="form-guruh">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           <div class="package__details_modals aos-init aos-animate" data-aos="" data-aos-duration="600"
             data-aos-delay="400">
+            <!-- modal close button -->
+            <a href="" class="modal__close demo-close registerGuruhFormModal">
+              <svg class="" viewBox="0 0 24 24">
+                <path
+                  d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z" />
+                <path d="M0 0h24v24h-24z" fill="none" />
+              </svg>
+            </a>
             <h2 class="package__title title title_sm">Regístrate como Guruh</h2>
             <div class="row mb-4 p-4">
               <div class="col-md-6">
@@ -644,12 +654,12 @@
                   </div>
                 </div>
                 <div class="entry__field field">
-                  <div class="field__label">Semestre<a class="invalid-feedback invalid-guruh hide invalid-semester">Por
+                  <div class="field__label">Semestre<a class="invalid-feedback invalid-guruh hide invalid-guruh">Por
                       favor selecciona tu semestre actual.</a></div>
                   <div class="field__wrap">
-                    <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div>
-                    <select id="semestre" name="state" class="form-control selectpicker" title="Selecciona tu semestre"
-                      data-size="20" tabindex="-98">
+                    <div class="field__icon"><img class="field__pic" src="img/university-solid.svg" alt=""></div>
+                    <select id="semestre" name="state" class="field__input" title="Selecciona tu semestre"
+                      data-size="20" data-live-search="true">
                       <option disabled selected class="bs-title-option" value="">Selecciona tu semestre</option>
                       <option>1</option>
                       <option>2</option>
@@ -672,8 +682,8 @@
                       favor selecciona tu universidad.</a></div>
                   <div class="field__wrap">
                     <div class="field__icon"><img class="field__pic" src="img/university-solid.svg" alt=""></div>
-                    <select id="universidad" name="universidad" class="field__input" title="Selecciona tu universidad"
-                      data-size="20" data-live-search="true">
+                    <select id="universidad" name="universidad" class="field__input select-no-padding selectpicker"
+                      title="Selecciona tu universidad" data-size="20" data-live-search="true">
                       <option disabled selected class="bs-title-option" value="">Selecciona tu universidad</option>
                     </select>
                   </div>
