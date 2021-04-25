@@ -91,6 +91,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: white;
+}
+
 a,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -8001,7 +8005,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     right: -220px;
   }
   .work__preview {
-    right: calc(80% - 610px);
+    right: calc(80% - 870px);
     top: 160px;
   }
   .work__hand:first-child {
