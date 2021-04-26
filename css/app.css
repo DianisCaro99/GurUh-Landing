@@ -10391,3 +10391,8 @@ body:not(.touch-device) .header__item:hover .header__body {
   margin: 20px !important;
   cursor: pointer;
 }
+
+.padding-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
