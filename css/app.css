@@ -2728,6 +2728,14 @@ body:not(.touch-device) .header__item:hover .header__body {
   padding: 20px !important;
 }
 
+@media screen and (max-width:576px){
+  .package__details_modals{
+    margin-right: 0 !important;
+    padding: 5px !important;
+  }
+  
+}
+
 .modal-content .btn-close {
   cursor: pointer;
   position: absolute;
