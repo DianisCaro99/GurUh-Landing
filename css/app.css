@@ -2738,7 +2738,16 @@ body:not(.touch-device) .header__item:hover .header__body {
     margin-right: 0 !important;
     padding: 5px !important;
   }
-  
+
+  a {
+  text-decoration: none;
+  color: black;
+  }
+
+  a:hover{
+  color: black;
+  }
+
 }
 
 .modal-content .btn-close {

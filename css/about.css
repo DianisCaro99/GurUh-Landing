@@ -10662,6 +10662,14 @@ Nevas cosas
 	.blog-slider__img {
 		width: 95%;
    }
+   a {
+    text-decoration: none;
+    color: black;
+    }
+  
+    a:hover{
+    color: black;
+    }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
 	.blog-slider__img {
