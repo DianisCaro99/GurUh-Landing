@@ -89,10 +89,29 @@ html {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover{
   color: white;
+}
+
+.linkedin_1 {
+  text-decoration: none;
+  color: #FF914D;
+}
+
+.linkedin_2 {
+  color: #F44E66;
+}
+
+.linkedin_1:hover {
+  text-decoration: none;
+  color: #FF914D;
+}
+
+.linkedin_2:hover {
+  color: #F44E66;
 }
 
 a,
@@ -6955,12 +6974,12 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .footer__col.active .footer__category {
-  border-color: #5956E9;
-  color: #5956E9;
+  border-color: #FF914D;
+  color: #FF914D;
 }
 
 .footer__col.active .footer__category .icon {
-  fill: #5956E9;
+  fill: #FF914D;
 }
 
 .footer__menu {
@@ -6984,7 +7003,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .footer__link:hover {
-  color: #5956E9;
+  color: #FF914D;
 }
 
 .footer__link:not(:last-child) {
