@@ -6949,12 +6949,12 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .footer__col.active .footer__category {
-  border-color: #5956E9;
-  color: #5956E9;
+  border-color: #FF914D;
+  color: #FF914D;
 }
 
 .footer__col.active .footer__category .icon {
-  fill: #5956E9;
+  fill: #FF914D;
 }
 
 .footer__menu {
@@ -6978,7 +6978,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 }
 
 .footer__link:hover {
-  color: #5956E9;
+  color: #FF914D;
 }
 
 .footer__link:not(:last-child) {
@@ -10313,7 +10313,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   position: relative;
   display: inline-block;
   padding: 1.2rem 2.4rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
   line-height: 1;
   cursor: pointer;
   background: #FF914D;
@@ -10326,7 +10326,8 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 10;
 }
 .modal__trigger:hover {
-  background: #e5d3d6;
+  background: #F44E66;
+  color: #fff;
 }
 #modal__temp {
   border-radius: 5px;
