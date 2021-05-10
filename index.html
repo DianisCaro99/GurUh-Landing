@@ -332,18 +332,56 @@
                 ti, por favor escríbenos si tienes alguna duda</div>
               <form class="access__form">
                 <div class="access__field">
-                  <input class="access__input" type="email" placeholder="Correo electrónico">
+                  <input class="access__input" type="email" id="mc-email" placeholder="Correo electrónico">
                   <div class="access__icon">
                     <img class="access__pic" src="img/sending-mail.svg" alt="">
                   </div>
+                  <div class="invalid-feedback invalid-pqr invalid-pqr-email hide">Por favor ingresa un
+                    correo válido.
+                </div>
+                <div class="space-20"></div>
+                </div>
+                <br>
+                <div class="access__field">
+                  <textarea class="access__area" id="mc-message"  name="mensaje" placeholder="Mensaje" id="mc-message" spellcheck="false"></textarea>
+                  <div class="access__icon">
+                    <img class="access__pic" src="img/chat.png" alt="">
+                  </div>
+                  <div class="invalid-feedback invalid-pqr invalid-pqr-message hide">Por favor ingresa un
+                    mensaje.</div>
+                <div class="space-20"></div>
                 </div>
                 <br>
                 <div class="offer__btn">
-                  <button class="btn btn_white js-popup-open" href="index.html#popup-contact" data-effect="mfp-zoom-in"
+                  <button class="btn btn_white" id="sendPqrButton"  data-effect="mfp-zoom-in"
                     type="submit"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Enviar</button>
                 </div>
               </form>
+
+              <div class="w-100 thanks-pqrs text-center hide">
+                <h2 class="orange-color">Gracias</h2>
+                <div class="space-20"></div>
+                <h3>Pronto te enviaremos una respuesta</h3>
+                <div class="space-20"></div>
+                <i class="fa fa-check-circle" style="font-size:120px;color:#ff914d"></i>
+                <div class="space-20"></div>
+                <button class="btn btn_white active" onclick="newForm()">
+                    <span class="fas fa-angle-double-right"></span> Envíar otra pregunta</button>
+                <div class="space-20" style="margin-bottom: 50px;"></div>
             </div>
+            <div class="w-100 error-pqrs text-center hide">
+                <h2 class="orange-color">Lo sentimos</h2>
+                <div class="space-20"></div>
+                <h3>Algo ha fallado, intenta nuevamente más tarde</h3>
+                <div class="space-20"></div>
+                <i class="fa fa-times-circle" style="font-size:120px;color:#ff914d"></i>
+                <div class="space-20" style="margin-bottom: 50px;"></div>
+            </div>
+
+            </div>
+
+            
+
             <div class="offer__circles">
               <div class="offer__circle"></div>
               <div class="offer__circle"></div>
@@ -359,6 +397,7 @@
           <div class="offer__preview"><img class="offer__pic" src="img/offer-pic-5.png" alt=""></div>
         </div>
       </div>
+
       <div class="footer js-footer">
         <div class="footer__center center">
           <div class="footer__row">
