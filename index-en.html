@@ -132,8 +132,7 @@
               <h2 class="quality__title title">Support to decide <br> 
                 what degree and <br> 
                 university you want
-                <br> to enroll in
-                <span class="title__color">.</span></h2>
+                <br> to enroll in<span class="title__color">.</span></h2>
             </div>
             <div class="quality__info info"> When you interact with college students from the degrees
               you have in mind, you will get realistic expectations of what each degree offers and the
@@ -167,7 +166,7 @@
                 <div class="quality__category">College Student</div>
                 <div class="quality__text">What things would you have liked to know before entering to study? 
                   Well now you can help a future college student make the right decision. Just sign up and 
-                  tell them in a short conversation your experiences, tips and tricks to study your career.</div>
+                  tell them in a short conversation your experiences, tips and tricks to study your degree.</div>
               </div>
             </div>
           </div>
@@ -189,8 +188,7 @@
                   <div class="design__details">
                     <div class="design__info">Analysis</div>
                     <div class="design__text">From your social networks (Twitter) you can see statistics that
-                      indicate which areas of knowledge are related to your topics of interest and degree related to
-                      these results, explore various alternatives!
+                      indicate which areas of knowledge are related to your topics of interest and search for future degree options, explore various alternatives!
                     </div>
                   </div>
                 </div>
@@ -213,9 +211,9 @@
                   </div>
                   <div class="design__details">
                     <div class="design__info">Planning</div>
-                    <div class="design__text">Let nothing escape you because of an oversight. Our calendar is a way
-                      quick and easy to add deadlines for applications, scholarships and documents needed to
-                      enroll in the universities of your interest.</div>
+                    <div class="design__text">Let nothing escape you because of an oversight. Our calendar is a
+                      quick and easy way to add deadlines for applications, scholarships and documents needed to
+                      enroll in the university of your interest.</div>
                   </div>
                 </div>
               </div>
@@ -330,22 +328,57 @@
           <div class="offer__container">
             <div class="offer__head">
               <h2 class="offer__title title" data-aos="animation-scale-y">Contact us</h2>
-              <div class="offer__info info" data-aos="animation-scale-y" data-aos-delay="150">We would love to hear from
-                you, please write to us if you have any questions</div>
+              <div class="offer__info info" data-aos="animation-scale-y" data-aos-delay="150">We would love to hear from you, please write to us if you have any questions              </div>
               <form class="access__form">
                 <div class="access__field">
-                  <input class="access__input" type="email" placeholder="Email">
+                  <input class="access__input" type="email" id="mc-email" placeholder="Email">
                   <div class="access__icon">
                     <img class="access__pic" src="img/sending-mail.svg" alt="">
                   </div>
+                  <div class="invalid-feedback invalid-pqr invalid-pqr-email hide">Please write a valid email adress.
+                </div>
+                <div class="space-20"></div>
+                </div>
+                <br>
+                <div class="access__field">
+                  <textarea class="access__area" id="mc-message"  name="mensaje" placeholder="Message" id="mc-message" spellcheck="false"></textarea>
+                  <div class="access__icon">
+                    <img class="access__pic" src="img/chat.png" alt="">
+                  </div>
+                  <div class="invalid-feedback invalid-pqr invalid-pqr-message hide">Please enter a valid message.</div>
+                <div class="space-20"></div>
                 </div>
                 <br>
                 <div class="offer__btn">
-                  <button class="btn btn_white js-popup-open" href="index.html#popup-contact" data-effect="mfp-zoom-in"
+                  <button class="btn btn_white" id="sendPqrButton"  data-effect="mfp-zoom-in"
                     type="submit"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button>
                 </div>
               </form>
+
+              <div class="w-100 thanks-pqrs text-center hide">
+                <h2 class="orange-color">Gracias</h2>
+                <div class="space-20"></div>
+                <h3>Pronto te enviaremos una respuesta</h3>
+                <div class="space-20"></div>
+                <i class="fa fa-check-circle" style="font-size:120px;color:#ff914d"></i>
+                <div class="space-20"></div>
+                <button class="btn btn_white active" onclick="newForm()">
+                    <span class="fas fa-angle-double-right"></span> Envíar otra pregunta</button>
+                <div class="space-20" style="margin-bottom: 50px;"></div>
             </div>
+            <div class="w-100 error-pqrs text-center hide">
+                <h2 class="orange-color">Lo sentimos</h2>
+                <div class="space-20"></div>
+                <h3>Algo ha fallado, intenta nuevamente más tarde</h3>
+                <div class="space-20"></div>
+                <i class="fa fa-times-circle" style="font-size:120px;color:#ff914d"></i>
+                <div class="space-20" style="margin-bottom: 50px;"></div>
+            </div>
+
+            </div>
+
+            
+
             <div class="offer__circles">
               <div class="offer__circle"></div>
               <div class="offer__circle"></div>
