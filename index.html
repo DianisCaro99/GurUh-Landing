@@ -55,6 +55,13 @@
       }
     }
   </script>
+  <script>
+     if ('loading' in HTMLImageElement.prototype) {
+        console.log('El navegador soporta `lazy-loading`...');
+      } else {
+        console.log('`lazy-loading` no soportado...');
+      }
+  </script>
 </head>
 
 <body>
@@ -73,7 +80,7 @@
               <a class="header__item" href="aboutus.html">Sobre nosotros</a>
               <a class="header__item" href="index.html">Contacto</a>
             </nav>
-            <div class="header__photo"><img class="header__pic" src="img/menu-pic.png" alt=""></div>
+            <div class="header__photo"><img loading="lazy" class="header__pic" src="img/menu-pic.png" alt=""></div>
           </div>
           <div class="header__search js-header-search">
             <button class="btn_languages">
