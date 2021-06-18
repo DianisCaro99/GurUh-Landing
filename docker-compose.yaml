@@ -61,7 +61,7 @@ services:
     expose:
       - 3000
     volumes:
-      - ../GURUH/:/usr/src/app/
+      - ../GURUH/:/app/
 
 volumes:
   certs:
