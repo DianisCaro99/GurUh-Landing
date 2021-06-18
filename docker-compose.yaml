@@ -53,15 +53,15 @@ services:
 
   backend:
     env_file:
-        "../Back/GURUH/config.env"
+        "../GURUH/config.env"
     build:
       context: .
-      dockerfile: ../Back/GURUH/Dockerfile
+      dockerfile: ../GURUH/Dockerfile
     restart: always
     expose:
       - 3000
     volumes:
-      - ../Back/GURUH/:/usr/src/app/
+      - ../GURUH/:/usr/src/app/
 
 volumes:
   certs:
