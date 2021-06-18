@@ -43,32 +43,15 @@ services:
     image: nginx
     restart: always
     expose:
-      - 80
+      - "80"
     volumes:
+      - ../GURUH:/usr/share/nginx/
       - ../GURUH/default.conf:/etc/nginx/conf.d/default.conf
-    networks: 
-      - backend
     environment:
       - VIRTUAL_HOST=api.guruh.com.co
       - LETSENCRYPT_HOST=api.guruh.com.co
       - LETSENCRYPT_EMAIL=cahupa99@gmail.com
 
-  backend:
-    env_file:
-        "../GURUH/config.env"
-    build:
-      context: ../GURUH/
-      dockerfile: ../GURUH/Dockerfile
-    restart: always
-    expose:
-      - 3000
-    volumes:
-      - ../GURUH/:/app/
-    networks: 
-      - backend
-
-networks: 
-  backend:
 volumes:
   certs:
   html:
