@@ -45,7 +45,7 @@ services:
     expose:
       - 80
     volumes:
-      - ../Back/GURUH/default.conf:/etc/nginx/conf.d/default.conf
+      - ../GURUH/default.conf:/etc/nginx/conf.d/default.conf
     environment:
       - VIRTUAL_HOST=api.guruh.com.co
       - LETSENCRYPT_HOST=api.guruh.com.co
