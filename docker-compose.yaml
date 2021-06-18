@@ -55,7 +55,7 @@ services:
     env_file:
         "../GURUH/config.env"
     build:
-      context: .
+      context: ../GURUH/
       dockerfile: ../GURUH/Dockerfile
     restart: always
     expose:
