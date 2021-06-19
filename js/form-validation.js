@@ -1,6 +1,6 @@
  const protocol = window.location.protocol;
 
- API_URL= protocol.includes("http:")? "http://api.guruh.com.co/api/v1/" : "https://api.guruh.com.co/api/v1/"
+ API_URL= protocol.includes("http:")? "http://api.guruhteam.tk/api/v1/" : "https://api.guruhteam.tk/api/v1/"
  $(document).ready(function (){
   const formmy= document.querySelector(".access__form");
   console.log(formmy)
