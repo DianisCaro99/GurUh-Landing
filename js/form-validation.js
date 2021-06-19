@@ -1,3 +1,6 @@
+ const protocol = window.location.protocol;
+
+ API_URL= protocol.includes("http:")? "http://api.guruh.com.co/api/v1/" : "https://api.guruh.com.co/api/v1/"
  $(document).ready(function (){
   const formmy= document.querySelector(".access__form");
   console.log(formmy)
@@ -23,7 +26,8 @@
       email: email.value,
       message: message.value,
     };
-    fetch("https://api.guruh.com.co/api/v1/pqrs/", {
+
+    fetch(API_URL+"pqrs/", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
@@ -140,7 +144,7 @@ function validateGuritoForm() {
       groups: group.checked,
     };
     console.log(data);
-    fetch("https://api.guruh.com.co/api/v1/guritos/", {
+    fetch(API_URL+"guritos/", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
@@ -263,7 +267,7 @@ function validateGuruhForm() {
       degreeLove: liking,
       canal: channel,
     };
-    fetch("https://api.guruh.com.co/api/v1/guruhs/", {
+    fetch(API_URL+"guruhs/", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
