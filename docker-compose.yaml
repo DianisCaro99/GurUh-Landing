@@ -38,6 +38,12 @@ services:
       - VIRTUAL_HOST=guruh.com.co,www.guruh.com.co
       - LETSENCRYPT_HOST=guruh.com.co,www.guruh.com.co
       - LETSENCRYPT_EMAIL=cahupa99@gmail.com
+  
+  backend:
+    build: ../GURUH/.
+    restart: always
+    expose:
+      - 3000
 
   api:
     image: nginx
@@ -45,7 +51,6 @@ services:
     expose:
       - "80"
     volumes:
-      - ../GURUH:/usr/share/nginx/
       - ../GURUH/default.conf:/etc/nginx/conf.d/default.conf
     environment:
       - VIRTUAL_HOST=api.guruh.com.co
