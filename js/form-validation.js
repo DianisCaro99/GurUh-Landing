@@ -3,7 +3,6 @@
  API_URL= protocol.includes("http:")? "http://api.guruh.com.co/api/v1/" : "https://api.guruh.com.co/api/v1/"
  $(document).ready(function (){
   const formmy= document.querySelector(".access__form");
-  console.log(formmy)
   formmy.addEventListener("submit", event=>{  event.preventDefault(); validatePQRForm()})
  });
 

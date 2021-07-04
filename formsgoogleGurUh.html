@@ -44,6 +44,13 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-162139755-1');
+  document.addEventListener('DOMContentLoaded', function () {
+    window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+});
+});
 </script>
 
 
@@ -77,7 +84,8 @@
 
                 </div>
                 
-              <div class="main__view" data-aos>
+              <div class="main__view" data-aos style="
+              z-index: -1000;">
                 <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down"
                     src="img/main-pic-1.png" alt=""></div>
                 <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up"
