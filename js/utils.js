@@ -1,7 +1,7 @@
 const hostname = window.location.hostname;
 
 const FRONT_URL = hostname.includes("guruh.com.co")
-  ? window.location.hostname
+  ? window.location.origin
   : `..`;
 
 function readTextFile(file, callback) {
