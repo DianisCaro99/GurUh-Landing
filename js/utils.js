@@ -4,7 +4,6 @@ const FRONT_URL = hostname.includes("guruh.com.co")
   ? window.location.href
   : `..`;
 
-console.table([FRONT_URL, window.location]);
 function readTextFile(file, callback) {
   var rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
