@@ -1,0 +1,265 @@
+{
+    "universidades": [
+        {
+            "nombre": "COLEGIO MAYOR DE NUESTRA SE\u00d1ORA DEL ROSARIO"
+        },
+        {
+            "nombre": "CORP. UNIV. DE INVESTIGACION Y DESARROLLO - UDI"
+        },
+        {
+            "nombre": "CORP. UNIV. DE LA COSTA CUC"
+        },
+        {
+            "nombre": "CORP. UNIV. PILOTO DE COLOMBIA"
+        },
+        {
+            "nombre": "ESCUELA NAVAL DE CADETES ALMIRANTE PADILLA"
+        },
+        {
+            "nombre": "FUND. UNIV. AUTONOMA DE COLOMBIA -FUAC-"
+        },
+        {
+            "nombre": "FUND. UNIV. DE AMERICA"
+        },
+        {
+            "nombre": "FUND. UNIV. DE BOGOTA - JORGE TADEO LOZANO"
+        },
+        {
+            "nombre": "PONTIFICIA UNIV. JAVERIANA"
+        },
+        {
+            "nombre": "UNIV. ANTONIO NARI\u00d1O"
+        },
+        {
+            "nombre": "UNIV. AUTONOMA DE BUCARAMANGA-UNAB-"
+        },
+        {
+            "nombre": "UNIV. AUTONOMA DE MANIZALES"
+        },
+        {
+            "nombre": "UNIV. AUTONOMA DE OCCIDENTE"
+        },
+        {
+            "nombre": "UNIV. AUTONOMA DEL CARIBE- UNIAUTONOMA"
+        },
+        {
+            "nombre": "UNIV. AUTONOMA LATINOAMERICANA-UNAULA-"
+        },
+        {
+            "nombre": "UNIV. CATOLICA DE COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. CATOLICA DE MANIZALES"
+        },
+        {
+            "nombre": "UNIV. CATOLICA DE ORIENTE -UCO"
+        },
+        {
+            "nombre": "UNIV. CATOLICA DE PEREIRA"
+        },
+        {
+            "nombre": "UNIV. CAT\u00d3LICA LUIS AMIG\u00d3-FUNLAM"
+        },
+        {
+            "nombre": "UNIV. CENTRAL"
+        },
+        {
+            "nombre": "UNIV. CES"
+        },
+        {
+            "nombre": "UNIV. CESMAG - UNICESMAG"
+        },
+        {
+            "nombre": "UNIV. COLEGIO MAYOR DE CUNDINAMARCA"
+        },
+        {
+            "nombre": "UNIV. COOPERATIVA DE COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. DE ANTIOQUIA"
+        },
+        {
+            "nombre": "UNIV. DE BOYACA UNIBOYACA"
+        },
+        {
+            "nombre": "UNIV. DE CALDAS"
+        },
+        {
+            "nombre": "UNIV. DE CARTAGENA"
+        },
+        {
+            "nombre": "UNIV. DE CIENCIAS APLICADAS Y AMBIENTALES - UDCA"
+        },
+        {
+            "nombre": "UNIV. DE CORDOBA"
+        },
+        {
+            "nombre": "UNIV. DE CUNDINAMARCA-UDEC"
+        },
+        {
+            "nombre": "UNIV. DE IBAGUE"
+        },
+        {
+            "nombre": "UNIV. DE LA AMAZONIA"
+        },
+        {
+            "nombre": "UNIV. DE LA GUAJIRA"
+        },
+        {
+            "nombre": "UNIV. DE LA SABANA"
+        },
+        {
+            "nombre": "UNIV. DE LA SALLE"
+        },
+        {
+            "nombre": "UNIV. DE LOS ANDES"
+        },
+        {
+            "nombre": "UNIV. DE LOS LLANOS"
+        },
+        {
+            "nombre": "UNIV. DE MANIZALES"
+        },
+        {
+            "nombre": "UNIV. DE MEDELLIN"
+        },
+        {
+            "nombre": "UNIV. DE NARI\u00bfO"
+        },
+        {
+            "nombre": "UNIV. DE PAMPLONA"
+        },
+        {
+            "nombre": "UNIV. DE SAN BUENAVENTURA"
+        },
+        {
+            "nombre": "UNIV. DE SANTANDER - UDES"
+        },
+        {
+            "nombre": "UNIV. DE SUCRE"
+        },
+        {
+            "nombre": "UNIV. DEL ATLANTICO"
+        },
+        {
+            "nombre": "UNIV. DEL CAUCA"
+        },
+        {
+            "nombre": "UNIV. DEL MAGDALENA - UNIMAGDALENA"
+        },
+        {
+            "nombre": "UNIV. DEL NORTE"
+        },
+        {
+            "nombre": "UNIV. DEL PACIFICO"
+        },
+        {
+            "nombre": "UNIV. DEL QUINDIO"
+        },
+        {
+            "nombre": "UNIV. DEL SINU - ELIAS BECHARA ZAINUM - UNISINU -"
+        },
+        {
+            "nombre": "UNIV. DEL TOLIMA"
+        },
+        {
+            "nombre": "UNIV. DEL VALLE"
+        },
+        {
+            "nombre": "UNIV. DISTRITAL-FRANCISCO JOSE DE CALDAS"
+        },
+        {
+            "nombre": "UNIV. EAFIT-"
+        },
+        {
+            "nombre": "UNIV. EAN"
+        },
+        {
+            "nombre": "UNIV. ECCI"
+        },
+        {
+            "nombre": "UNIV. EIA"
+        },
+        {
+            "nombre": "UNIV. EL BOSQUE"
+        },
+        {
+            "nombre": "UNIV. EXTERNADO DE COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. FRANCISCO DE PAULA SANTANDER"
+        },
+        {
+            "nombre": "UNIV. ICESI"
+        },
+        {
+            "nombre": "UNIV. INCCA DE COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. INDUSTRIAL DE SANTANDER"
+        },
+        {
+            "nombre": "UNIV. LA GRAN COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. LIBRE"
+        },
+        {
+            "nombre": "UNIV. MANUELA BELTRAN-UMB-"
+        },
+        {
+            "nombre": "UNIV. MARIANA"
+        },
+        {
+            "nombre": "UNIV. METROPOLITANA"
+        },
+        {
+            "nombre": "UNIV. MILITAR-NUEVA GRANADA"
+        },
+        {
+            "nombre": "UNIV. NACIONAL ABIERTA Y A DISTANCIA UNAD"
+        },
+        {
+            "nombre": "UNIV. NACIONAL DE COLOMBIA"
+        },
+        {
+            "nombre": "UNIV. PEDAGOGICA NACIONAL"
+        },
+        {
+            "nombre": "UNIV. PEDAGOGICA Y TECNOLOGICA DE COLOMBIA - UPTC"
+        },
+        {
+            "nombre": "UNIV. PONTIFICIA BOLIVARIANA"
+        },
+        {
+            "nombre": "UNIV. POPULAR DEL CESAR"
+        },
+        {
+            "nombre": "UNIV. SANTIAGO DE CALI"
+        },
+        {
+            "nombre": "UNIV. SANTO TOMAS"
+        },
+        {
+            "nombre": "UNIV. SERGIO ARBOLEDA"
+        },
+        {
+            "nombre": "UNIV. SIMON BOLIVAR"
+        },
+        {
+            "nombre": "UNIV. SURCOLOMBIANA"
+        },
+        {
+            "nombre": "UNIV. TECNOLOGICA DE BOLIVAR"
+        },
+        {
+            "nombre": "UNIV. TECNOLOGICA DE PEREIRA - UTP"
+        },
+        {
+            "nombre": "UNIV. TECNOLOGICA DEL CHOCO-DIEGO LUIS CORDOBA"
+        },
+        {
+            "nombre": "Universidad Aut\u00f3noma Ind\u00edgena Intercultural - UAIIN"
+        }
+    ]
+}

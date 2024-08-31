@@ -35,10 +35,11 @@ services:
     volumes:
       - ./:/usr/share/nginx/html:ro
     environment:
-      - VIRTUAL_HOST=guruh.com.co,www.guruh.com.co
-      - LETSENCRYPT_HOST=guruh.com.co,www.guruh.com.co
+      - VIRTUAL_HOST=guruh.co,www.guruh.co
+      - LETSENCRYPT_HOST=guruh.co,www.guruh.co
       - LETSENCRYPT_EMAIL=cahupa99@gmail.com
-  
+
+
   backend:
     build: ../GURUH/.
     restart: always
@@ -53,8 +54,8 @@ services:
     volumes:
       - ../GURUH/default.conf:/etc/nginx/conf.d/default.conf
     environment:
-      - VIRTUAL_HOST=api.guruh.com.co
-      - LETSENCRYPT_HOST=api.guruh.com.co
+      - VIRTUAL_HOST=api.guruh.co
+      - LETSENCRYPT_HOST=api.guruh.co
       - LETSENCRYPT_EMAIL=cahupa99@gmail.com
 
 volumes:
