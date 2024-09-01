@@ -1,6 +1,6 @@
  const protocol = window.location.protocol;
 
- API_URL= protocol.includes("http:")? "http://api.guruh.com.co/api/v1/" : "https://api.guruh.com.co/api/v1/"
+ API_URL= protocol.includes("http:")? "http://api.guruh.co/api/v1/" : "https://api.guruh.co/api/v1/"
  $(document).ready(function (){
   const formmy= document.querySelector(".access__form");
   formmy.addEventListener("submit", event=>{  event.preventDefault(); validatePQRForm()})
