@@ -55,9 +55,38 @@ services:
     environment:
       - VIRTUAL_HOST=api.guruh.co
       - LETSENCRYPT_HOST=api.guruh.co
-      - LETSENCRYPT_EMAIL=cahupa99@gmail.com
+      - LETSENCRYPT_EMAIL=business@guruh.co
+
+  n8n-nginx:
+    image: nginx
+    restart: always
+    expose:
+      - "80"
+    volumes:
+      - ../n8n/default.conf:/etc/nginx/conf.d/default.conf
+    environment:
+      - VIRTUAL_HOST=n8n.guruh.co
+      - LETSENCRYPT_HOST=n8n.guruh.co
+      - LETSENCRYPT_EMAIL=business@guruh.co
+
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    restart: always
+    expose:
+      - 5678
+    environment:
+      - N8N_HOST=n8n.guruh.co
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
+      - NODE_ENV=production
+      - WEBHOOK_URL=https://n8n.guruh.co/
+      - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./local-files:/files
 
 volumes:
+  n8n_data:
   certs:
   html:
   vhostd:
