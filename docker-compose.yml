@@ -36,7 +36,7 @@ services:
     environment:
       - VIRTUAL_HOST=guruh.co,www.guruh.co
       - LETSENCRYPT_HOST=guruh.co,www.guruh.co
-      - LETSENCRYPT_EMAIL=cahupa99@gmail.com
+      - LETSENCRYPT_EMAIL=business@guruh.co
 
 
   backend:
